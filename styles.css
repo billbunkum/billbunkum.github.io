@@ -1,0 +1,77 @@
+/*
+#mugShot
+.container
+.aboutMe
+.socialLinks
+*/
+
+h1, h2 {
+  font-family: fantasy;
+}
+
+a:link, a:visited, a:active {
+  color: #8b8378;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+h1.header {
+  float: none;
+  border: 5px solid black;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #ebece4; /*grey cliffs*/
+}
+
+.bigContainer {
+  margin-left: auto;
+  margin-right: auto;
+  border: 8px solid green;
+}
+
+.container {
+  margin-left: auto; 
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  border: 8px solid black;
+  background-color: #f1edc2; /*toasted meringue*/
+  color: #8B0000; /*dark-red*/
+}
+
+.aboutMe {
+  position: relative;
+  float: none;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Oswald', serif;
+  font-size: 15px;
+}
+
+.socialLinks {
+  position: relative;
+  float: none;
+  max-width: 40%;
+  margin-left: auto; 
+  margin-right: auto;
+
+}
+
+img.mugShot {
+  float: left;
+  margin-right: 10px;
+  max-width: 100px;
+  max-height: 150px;
+
+  border: 8px solid black;
+}
