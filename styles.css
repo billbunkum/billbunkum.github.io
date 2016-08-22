@@ -40,9 +40,9 @@ body {
 .container {
   margin-left: auto; 
   margin-right: auto;
-  padding-top: 20px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-top: 0px;
+  /*padding-left: 200px; */
+  /*padding-right: 200px;*/
   border: 8px solid black;
   background-color: #f1edc2; /*toasted meringue*/
   color: #8B0000; /*dark-red*/
@@ -75,3 +75,44 @@ img.mugShot {
 
   border: 8px solid black;
 }
+
+/* Added by Gary Ditsch */
+/* Nav styling */
+
+.video {
+  margin: 50px;
+}
+
+.navContainer {
+  width: 100%;
+  background-color: green;
+}
+
+ul.nav  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.nav li {
+  float: left;
+  text-align: center;
+}
+
+ul.nav a:link, ul.nav a:visited {
+  display: block;
+  width: 134px;
+  color: white;
+  /*background-color: green;*/
+  padding: 3px;
+  text-decoration: none;
+}
+
+ul.nav a:hover, ul.nav a:active {
+  background-color: black;
+}
+
+/* End of Gary Additions */
+
+
