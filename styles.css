@@ -1,9 +1,4 @@
-/*
-#mugShot
-.container
-.aboutMe
-.socialLinks
-*/
+/*styles for bio index.html*/
 
 h1, h2 {
   font-family: fantasy;
@@ -12,107 +7,63 @@ h1, h2 {
 a:link, a:visited, a:active {
   color: #8b8378;
   font-weight: bolder;
+  text-decoration: none;
 }
 
 a:hover {
   color: black;
   font-weight: bold;
+  text-decoration: underline;
 }
 
-h1.header {
-  float: none;
-  border: 5px solid black;
-  max-width: 40%;
-  margin-left: auto;
-  margin-right: auto;
+ul {
+  text-decoration: none;
+  list-style-type: none;
 }
+
+li {
+  float: left;
+}
+
 
 body {
   background-color: #ebece4; /*grey cliffs*/
-}
-
-.bigContainer {
-  margin-left: auto;
-  margin-right: auto;
-  border: 8px solid green;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  margin-left: auto; 
-  margin-right: auto;
-  padding-top: 0px;
-  /*padding-left: 200px; */
-  /*padding-right: 200px;*/
-  border: 8px solid black;
+  margin: 0;
+  padding: 0;
+  border: 5px dotted black;
   background-color: #f1edc2; /*toasted meringue*/
-  color: #8B0000; /*dark-red*/
+  color: #8B0000; /*text dark-red*/
 }
 
 .aboutMe {
-  position: relative;
-  float: none;
-  max-width: 40%;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 700px;
+  margin: 0 auto;
   font-family: 'Oswald', serif;
   font-size: 15px;
+  border: 2px dotted orange;
 }
 
-.socialLinks {
-  position: relative;
-  float: none;
-  max-width: 40%;
-  margin-left: auto; 
-  margin-right: auto;
-
+.nav {
+  border: 2px dotted blue;
+  width: 94%;
 }
 
-img.mugShot {
-  float: left;
-  margin-right: 10px;
-  max-width: 100px;
-  max-height: 150px;
-
-  border: 8px solid black;
+.nav a:hover, a:active {
+  background-color: black;
+  color: white;
 }
 
-/* Added by Gary Ditsch */
-/* Nav styling */
+.nav.lower {
+  position: absolute;
+  border: 2px dotted red;
+}
 
+/* about page VIDEO */
 .video {
   margin: 50px;
 }
-
-.navContainer {
-  width: 100%;
-  background-color: green;
-}
-
-ul.nav  {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-ul.nav li {
-  float: left;
-  text-align: center;
-}
-
-ul.nav a:link, ul.nav a:visited {
-  display: block;
-  width: 134px;
-  color: white;
-  /*background-color: green;*/
-  padding: 3px;
-  text-decoration: none;
-}
-
-ul.nav a:hover, ul.nav a:active {
-  background-color: black;
-}
-
-/* End of Gary Additions */
-
-
