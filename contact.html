@@ -1,0 +1,32 @@
+---
+layout: page
+title: contact us
+---
+<form action={{site.formspree-email}} method="post">
+  <div class="form-group">	  
+	  <label for="name">First and Last Name</label>
+		<input type="text" class="form-control" id="name" placeholder="Please, enter your name..." name="name">
+  </div>
+	
+  <div class="form-group">
+	<label for="email">Your E-mail</label>
+	<input type="text" class="form-control" id="email" placeholder="Please, enter your e-mail address..." name="_replyto">
+  </div>
+
+  <div class="form-group">
+		<label for="feedback">Leave your Feedback</label>
+		<textarea class="form-control" id="feedback" placeholder="Put all them feedbacks here..." name="feedback" rows="3"></textarea>
+  </div>
+
+<!-- gotcha -->
+  <div class="form-group gotcha">
+  	<label for="gotcha">Gotcha:</label>
+  	<input type="text" name="_gotcha" style="display:none" />
+  </div>
+<!-- submition destination -->
+  <div class="form-group">
+  	<input type="hidden" name="_next" value="//{{site.baseurl}}/email_confirm.html" />
+  </div>
+  
+  <button type="submit" class="btn bg-warning">Submit</button>
+</form>
