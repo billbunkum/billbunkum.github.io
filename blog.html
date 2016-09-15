@@ -2,7 +2,10 @@
 layout: post
 title: blog-list
 ---
+
 {% for post in site.posts %}
 <h2>{{post.title}}</h2>
-<p /><a href={{post.url}}>blooooog</a>
+
+{% capture first_line %} {{ post | size | minus:10 }}{% endcapture %}
+<p /><a href={{post.url}}>{{first_line}}</a>
 {% endfor %}

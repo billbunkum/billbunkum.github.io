@@ -1,6 +1,7 @@
 /*styles for bio index.html*/
 
-h1, h2 {
+h1, h2, h3 {
+  color: #8B0000;
   font-family: fantasy;
 }
 
@@ -35,35 +36,55 @@ body {
 .container {
   margin: 0;
   padding: 0;
-  border: 5px dotted black;
-  background-color: #f1edc2; /*toasted meringue*/
-  color: #8B0000; /*text dark-red*/
+  width: 100%;
+/*  border: 5px dotted black;*/
+/*  color: #8B0000; text dark-red*/
 }
 
-.aboutMe {
+
+.content {
   max-width: 700px;
   margin: 0 auto;
   font-family: 'Oswald', serif;
   font-size: 15px;
-  border: 2px dotted orange;
+  background-color: #f1edc2; /*toasted meringue*/
+}/*  border: 2px dotted orange;*/
+
+.tabs {
+  padding: 10px;
+}
+
+.about-me {
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
+  text-align: justify;
+}
+
+.about-me h1 {
+  text-align: center;
 }
 
 .nav {
-  border: 2px dotted blue;
+/*  border: 2px dotted blue;*/
   width: 94%;
-}
-
-.nav a:hover, a:active {
-  background-color: black;
-  color: white;
 }
 
 .nav.lower {
   position: absolute;
-  border: 2px dotted red;
+
 }
 
 /* about page VIDEO */
 .video {
   margin: 50px;
+}
+
+/* used in Blog posts in _posts */
+
+.signature {
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: grey;
 }
