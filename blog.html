@@ -4,8 +4,8 @@ title: blog-list
 ---
 
 {% for post in site.posts %}
-<h2>{{post.title}}</h2>
+    <h2>{{post.title}}</h2>
 
-{% capture first_line %} {{ post | size | minus:10 }}{% endcapture %}
-<p /><a href={{post.url}}>{{first_line}}</a>
+    <p /><a href={{post.url}}>{{ post.content | truncate: 30 }}
+    </a>
 {% endfor %}

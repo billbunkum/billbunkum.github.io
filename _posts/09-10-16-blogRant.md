@@ -1,8 +1,7 @@
 ---
 layout: post
-title: To-Do listing like a boss
+title: 2016-09-10-week2
 ---
-#09.10.16
 I'll be using Lee's method? for doing today's to-do list; we learned about it briefly during bootcamp this past week; I'll mix a couple 'work-flow' philosophies to explain: basically, the most important things to remember when creating a schedule are: 
 	-1) chunking
 	-2) prioritizing
