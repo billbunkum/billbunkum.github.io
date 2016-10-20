@@ -5,9 +5,10 @@ title: Bootcamp Projects List
 
 A list of the bootcamp projects
 
-#Bootcamp Projects ![][AwesomeLogo]
+# Bootcamp Projects ![][AwesomeLogo]
 ==================
-##Seven main projects + Final project
+
+## Seven main projects + Final project
 
 
 1. Profile page (Jekyll + Github Pages)
@@ -27,7 +28,7 @@ A list of the bootcamp projects
 8. Final Project - TBA
 
 
-##YET TO DO
+### YET TO DO
 =========
 ** Deploying to Github Pages
     1. Do the angle
@@ -39,13 +40,13 @@ A list of the bootcamp projects
 ======
 
 
-##Jekyll ![][JekyllLogo]
+## Jekyll ![JekyllLogo](http://jekyllrb.com/img/logo-2x.png =100x200) "Jekyll - static sites"
 ======
 1. Profile page 
     * *Profile Github Pages*
 
 
-##Flask ![][FlaskLogo]
+## Flask ![][FlaskLogo]
 =======
 1. Swiss-Army-App
     * *a basic multi-tool*
@@ -61,7 +62,7 @@ A list of the bootcamp projects
     * simple lorem-ipsum generator
 
 
-##Django ![][DjangoLogo]
+## Django ![][DjangoLogo]
 ========
 1. Tunes-project
     + url
@@ -80,7 +81,7 @@ A list of the bootcamp projects
     * user experience
 
 
-##AngularJS ![][AngularJSLogo]
+## AngularJS ![][AngularJSLogo]
 ===========
 1. Do the angle
     * *an Angular To-do list*
@@ -93,7 +94,7 @@ A list of the bootcamp projects
         5. order by alphabetical
 
 
-##DjangoREST Framework ![][DjangoRESTLogo]
+## DjangoREST Framework ![][DjangoRESTLogo]
 ======================
 1. Grocery list
     * *persistent check-off list for groceries*
@@ -104,7 +105,7 @@ A list of the bootcamp projects
         3. DjangoREST (API requests)
 
 
-##Exercise Projects
+## Exercise Projects
 =======
 
 1. Address Book - by Miniature Mug
@@ -128,4 +129,4 @@ A list of the bootcamp projects
 
 [PythonLogo]: https://www.python.org/static/img/python-logo.png "Python"
 
-[JekyllLogo]: http://jekyllrb.com/img/logo-2x.png "Jekyll - static sites"
+
