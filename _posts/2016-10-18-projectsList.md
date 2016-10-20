@@ -6,48 +6,38 @@ title: Bootcamp Projects List
 A list of the bootcamp projects
 
 # Bootcamp Projects ![][AwesomeLogo]
-==================
+===
 
 ## Seven main projects + Final project
 
-
-1. Profile page (Jekyll + Github Pages)
-
-2. Swiss-Army-App (Flask + Angular)
-
-3. Lorem-ispsum-est (Flask + Angular)
-
-4. Do-the-angle (Angular to-do list)
-
-5. Tunes-project (Django)
-
-6. Barkin@pp (Django twitter-clone)
-
-7. GroceryList (Django REST + Angular)
-
-8. Final Project - TBA
-
+1. Profile page (Jekyll + Github Pages) 
+2. Swiss-Army-App (Flask + Angular) 
+3. Lorem-ispsum-est (Flask + Angular) 
+4. Do-the-angle (Angular to-do list) 
+5. Tunes-project (Django) 
+6. Barkin@pp (Django twitter-clone) 
+7. GroceryList (Django REST + Angular) 
+8. Final Project - TBA 
 
 ### YET TO DO
-=========
+===
 ** Deploying to Github Pages
     1. Do the angle
 
 ** Deploying to Heroku 
     1. Grocerylist
     2. Swiss-Army App
+===
 
-======
 
-
-## Jekyll ![JekyllLogo](http://jekyllrb.com/img/logo-2x.png =100x200) "Jekyll - static sites"
-======
+## Jekyll ![][JekyllLogo]
+===
 1. Profile page 
     * *Profile Github Pages*
 
 
 ## Flask ![][FlaskLogo]
-=======
+===
 1. Swiss-Army-App
     * *a basic multi-tool*
         1. simple calculator
@@ -63,7 +53,7 @@ A list of the bootcamp projects
 
 
 ## Django ![][DjangoLogo]
-========
+===
 1. Tunes-project
     + url
     * *Music album library*
@@ -82,7 +72,7 @@ A list of the bootcamp projects
 
 
 ## AngularJS ![][AngularJSLogo]
-===========
+===
 1. Do the angle
     * *an Angular To-do list*
     + Solo project with Angular
@@ -95,7 +85,7 @@ A list of the bootcamp projects
 
 
 ## DjangoREST Framework ![][DjangoRESTLogo]
-======================
+===
 1. Grocery list
     * *persistent check-off list for groceries*
     + First steps with DjangoREST
@@ -106,7 +96,7 @@ A list of the bootcamp projects
 
 
 ## Exercise Projects
-=======
+===
 
 1. Address Book - by Miniature Mug
     + First steps with Angular
@@ -129,4 +119,5 @@ A list of the bootcamp projects
 
 [PythonLogo]: https://www.python.org/static/img/python-logo.png "Python"
 
+[JekyllLogo]: http://jekyllrb.com/img/logo-2x.png "Jekyll - static sites"
 
