@@ -3,6 +3,7 @@ layout: post
 title: Bootcamp Projects List
 ---
 
+A list of the bootcamp projects
 
 #Bootcamp Projects ![][AwesomeLogo]
 ==================
