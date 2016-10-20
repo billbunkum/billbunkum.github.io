@@ -3,18 +3,6 @@ layout: post
 title: Bootcamp Projects List
 ---
 
-[AwesomeLogo]: https://www.awesomeinc.org/assets/img/logo.png "Awesome Inc. U."
-[FlaskLogo]: http://flask.pocoo.org/static/logo/flask.png "Flask - a Python-style microframework"
-
-[AngularJSLogo]: https://angularjs.org/img/AngularJS-small.png "Angular Javascript - for dynamic HTML"
-
-[DjangoLogo]: https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fateliers.mse.free.fr%2Flogos%2Fdjango.png&f=1 "Django - a big-ol backend"
-
-[DjangoRESTLogo]: http://www.django-rest-framework.org/img/logo.png "REST Framework - for API requests"
-
-[PythonLogo]: https://www.python.org/static/img/python-logo.png "Python"
-
-[JekyllLogo]: http://jekyllrb.com/img/logo-2x.png "Jekyll - static sites"
 
 #Bootcamp Projects ![][AwesomeLogo]
 ==================
@@ -127,3 +115,16 @@ title: Bootcamp Projects List
 
 2. Text-adventure ![][PythonLogo]
     + first steps with Python
+
+[AwesomeLogo]: https://www.awesomeinc.org/assets/img/logo.png "Awesome Inc. U."
+[FlaskLogo]: http://flask.pocoo.org/static/logo/flask.png "Flask - a Python-style microframework"
+
+[AngularJSLogo]: https://angularjs.org/img/AngularJS-small.png "Angular Javascript - for dynamic HTML"
+
+[DjangoLogo]: https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fateliers.mse.free.fr%2Flogos%2Fdjango.png&f=1 "Django - a big-ol backend"
+
+[DjangoRESTLogo]: http://www.django-rest-framework.org/img/logo.png "REST Framework - for API requests"
+
+[PythonLogo]: https://www.python.org/static/img/python-logo.png "Python"
+
+[JekyllLogo]: http://jekyllrb.com/img/logo-2x.png "Jekyll - static sites"
