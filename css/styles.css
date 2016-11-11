@@ -33,36 +33,30 @@ li {
 
 body {
   margin: 0 auto;
-  padding: 20px;
-  /*background-color: #EAECEC;*/
-}
-
-.index-body {
-  border: black dotted 2px;
 }
 
 .jumbotron {
-  padding: 30px;
+  padding: 10px 15px;
+  margin: 0px;
   /*background-image: url("/art_cascade.png");*/
   background-repeat: no-repeat;
   background-size: contain;
-  background: linear-gradient(180deg, #DCA7A1, #FFFFFF);
+  background: linear-gradient(160deg, #DCA7A1, #FFFFFF);
   background-repeat: no-repeat;
 }
 
 .jumbo-image {
   position: relative;
-  float: right;
+  float: none;
 }
 
-.nav-tops {
+.art-cascade {
+  max-width: 225px;
+}
+
+.navbar {
   background-color: #BAC4C6;
-}
-
-.navbar-fixed-bottom {
-  position: absolute;
-/* green */
-  background-color: #DEECC8; 
+  margin: 0px;
 }
 
 /* about page VIDEO */
@@ -71,7 +65,6 @@ body {
 }
 
 /* used in Blog posts in _posts */
-
 .signature {
   float: right;
   margin-right: 50px;
