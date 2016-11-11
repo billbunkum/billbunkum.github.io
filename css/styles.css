@@ -1,14 +1,21 @@
-/*styles for bio index.html*/
+/*light red #FFDCD9 */
+/*blue #648287 */
+/*light blue #BAC4C6 */
+/*green #648287*/
 
-h1, h2, h3 {
-  color: #8B0000;
-  font-family: fantasy;
+h1, h2, h3, small {
+  color: #648287;
+  font-family: 'Bitter', serif;
 }
 
 a:link, a:visited, a:active {
   color: #8b8378;
   font-weight: bolder;
   text-decoration: none;
+/*  font-size: 32px;
+  font-family: 'Chathura', sans-serif;*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
 }
 
 a:hover {
@@ -17,61 +24,45 @@ a:hover {
   text-decoration: underline;
 }
 
-ul {
-  text-decoration: none;
-  list-style-type: none;
-}
-
 li {
+  list-style-type: none;
+  text-decoration: none;
   float: left;
 }
 
 
 body {
-  background-color: #ebece4; /*grey cliffs*/
-  margin: 0 5px 0 5px;
-  padding: 0;
-}
-
-.container {
-  margin: 0;
-  padding: 0;
-  /*width: 100%;*/
-/*  border: 5px dotted black;*/
-/*  color: #8B0000; text dark-red*/
-}
-
-
-.content {
-  max-width: 700px;
   margin: 0 auto;
-  font-family: 'Oswald', serif;
-  font-size: 15px;
-  background-color: #f1edc2; /*toasted meringue*/
-}/*  border: 2px dotted orange;*/
-
-.tabs {
-  padding: 10px;
+  padding: 20px;
+  /*background-color: #EAECEC;*/
 }
 
-.about-me {
-  padding: 5px;
-  margin: 5px 5px 5px 5px;
-  text-align: justify;
+.index-body {
+  border: black dotted 2px;
 }
 
-.about-me h1 {
-  text-align: center;
+.jumbotron {
+  padding: 30px;
+  /*background-image: url("/art_cascade.png");*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background: linear-gradient(180deg, #DCA7A1, #FFFFFF);
+  background-repeat: no-repeat;
 }
 
-.nav {
-/*  border: 2px dotted blue;*/
-  width: 94%;
+.jumbo-image {
+  position: relative;
+  float: right;
 }
 
-.nav.lower {
+.nav-tops {
+  background-color: #BAC4C6;
+}
+
+.navbar-fixed-bottom {
   position: absolute;
-
+/* green */
+  background-color: #DEECC8; 
 }
 
 /* about page VIDEO */
