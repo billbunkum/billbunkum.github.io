@@ -1,3 +1,6 @@
+#CONSTRUCTION!
++ Bear in mind, I am hot off the heels of our Bootcamp final project and am now re-vamping this site with all the fancy tools I learned over the past 3 months!
+
 # billbunkum.github.io
 + A profile page for the projects I accomplished during the 12-week Awesome Inc. U. Bootcamp which ran from September 2016 to November 2016.
 
