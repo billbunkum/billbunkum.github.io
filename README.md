@@ -3,7 +3,7 @@
 
 + During the Monday thru Friday, 8am-5pm course, I was introduced to a variety of current, web development practices, methodologies, languages and frameworks. All told, I achieved over 500 hours of coding experience just from the Bootcamp. 
 
-+ Please, find a comprehensive list of the coursework material [here]({{site.projects-list}}).
++ Please, find a comprehensive list of the coursework material [here](site.projects-list).
 
 ## Thoughts about DESIGN
 + currently in developer-blog
