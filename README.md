@@ -21,3 +21,9 @@
 + linkedin: http://www.linkedin.com/in/billbunkum 
 + twitter: https://twitter.com/billbunkum 
 + blog: http://billbunkum.blogspot.com 
+
+## Local stuff
+* jekyll site w/ outbound links
+* deployed on GitHub Pages @ https://billbunkum.github.io
++ $jekyll serve
++ url localhost:4000

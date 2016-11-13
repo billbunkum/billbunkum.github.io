@@ -35,6 +35,11 @@ body {
   margin: 0 auto;
 }
 
+/* allows bottom of page to not be obscured by footer navbar */
+footer.bottom {
+  padding-top: 100px;
+}
+
 .jumbotron {
   padding: 10px 15px;
   margin: 0px;
