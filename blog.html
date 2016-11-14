@@ -4,8 +4,14 @@ title: blog-list
 ---
 
 {% for post in site.posts %}
-    <h2>{{post.title}}</h2>
-
-    <p /><a href={{post.url}}>{{ post.content | truncate: 60 }}
-    </a>
+<!-- for when the internets go down -->
+<!-- <div class="center"> -->
+    <h2>{{post.title}}<br />
+        <small>
+            <a href={{post.url}}>
+                {{ post.content | truncate: 80 }}
+            </a>
+        </small>
+    </h2>
+<!-- </div> -->
 {% endfor %}

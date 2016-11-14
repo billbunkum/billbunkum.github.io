@@ -2,6 +2,10 @@
 /*blue #648287 */
 /*light blue #BAC4C6 */
 /*green #648287*/
+/* dev blog*/
+.center {
+  margin-left: 100px
+}
 
 h1, h2, h3, small {
   color: #648287;
@@ -21,7 +25,7 @@ a:link, a:visited, a:active {
 a:hover {
   color: black;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 li {
@@ -69,7 +73,13 @@ footer.bottom {
   margin: 50px;
 }
 
+
 /* used in Blog posts in _posts */
+.blog-blurb-text {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
 .signature {
   float: right;
   margin-right: 50px;
