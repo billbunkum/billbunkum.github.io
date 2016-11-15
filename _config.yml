@@ -1,3 +1,7 @@
+url: /favicon.ico
+static_files: media/img/favicon.ico
+upload: media/img/favicon.ico
+
 title: Bill Bunkum
 github: https://github.com/billbunkum
 stack-over-flow: http://stackoverflow.com/users/6580955/billbunkum 
