@@ -28,12 +28,15 @@ a:hover {
   text-decoration: none;
 }
 
-li {
+ul {
   list-style-type: none;
   text-decoration: none;
-  float: left;
 }
 
+/*li {
+  float: left;
+}
+*/
 
 body {
   margin: 0 auto;
