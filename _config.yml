@@ -12,7 +12,7 @@ rando-blog: http://billbunkum.blogspot.com
 
 home-page: /index.html
 about-page: /about.html
-tech-blog: /blog.html
+bootcamp-blog: /blog.html
 
 contact: /contact.html
 formspree-email: https://formspree.io/william.richard.hurst@gmail.com
