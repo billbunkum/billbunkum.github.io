@@ -16,8 +16,6 @@ a:link, a:visited, a:active {
   color: #8b8378;
   font-weight: bolder;
   text-decoration: none;
-/*  font-size: 32px;
-  font-family: 'Chathura', sans-serif;*/
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
 }
@@ -32,11 +30,6 @@ ul {
   list-style-type: none;
   text-decoration: none;
 }
-
-/*li {
-  float: left;
-}
-*/
 
 body {
   margin: 0 auto;
@@ -55,6 +48,10 @@ footer.bottom {
   background-size: contain;
   background: linear-gradient(160deg, #DCA7A1, #FFFFFF);
   background-repeat: no-repeat;
+}
+
+a.button-text {
+  color: #ffffff;
 }
 
 .jumbo-image {
