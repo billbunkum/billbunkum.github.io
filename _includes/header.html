@@ -13,13 +13,22 @@
 <!--bootstrappin' it up -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+<!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<!-- angular -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<!-- ramda -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/ramda/0.22.1/ramda.min.js"></script>
 
+<!-- angular file to inject -->
+<script src="app.js"></script>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="/css/styles.css" />
 
 </head>
-<body ng-controller="RootCtrl as rootctrl">
+<body ng-cloak 
+    ng-controller="RootCtrl as body"
+>
 <!-- collapsability -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">

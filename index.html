@@ -9,52 +9,86 @@ title: Here I am
         <h2>Deployed Projects<br />
             <small>Personal projects</small>
         </h2>
-         <button class="btn btn-success">
-            <a 
-                href="https://evening-fortress-43547.herokuapp.com/" 
-                alt="twitter-clone"
-                title="my twitter clone"
-                class="button-text"
-            >
-                Barkin@pp
-            </a>
-        </button>
-        <button class="btn btn-success">
-            <a 
-                href="https://billbunkum.github.io/do-the-angle/" 
-                title="angular to-do list"
-                class="button-text"
-            >
-                Do the Angle
-            </a>
-        </button>
-        <button class="btn btn-success">
-            <a 
-                href="https://grocerybootylist.herokuapp.com/" 
-                title="djangoREST + angular"
-                class="button-text"
-            >
-                Grocery List
-            </a>
-        </button>
-        <button class="btn btn-default">
-            <a 
-                href="https://datebyhate.herokuapp.com/accounts/login/?next=/" 
-                alt="final project"
-                title="django + djangoREST + angular"
-            >
-                Date by Hate
-            </a>
-        </button>
-    </div>
+<!-- project navigation -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="dropdown">
+                    <button 
+                        class="btn btn-success dropdown-toggle"
+                        type="button"
+                        id="barkin"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="true"
+                    >
+                        Barkin@pp
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="barkin">
+                        <li>
+                            <a 
+                                href="https://evening-fortress-43547.herokuapp.com/" 
+                                title="my twitter clone"
+                            >
+                                Check out Barkin@pp
+                            </a>
+                        </li>
+                        <li ng-click="body.showBark">
+                            Details
+                        </li>
+                    </ul>
+                </div> <!-- drop down -->
+            </div>
+
+            <div class="col-md-3">
+                <button class="btn btn-success">
+                    <a 
+                        href="https://billbunkum.github.io/do-the-angle/" 
+                        title="angular to-do list"
+                        class="button-text"
+                    >
+                        Do the Angle
+                    </a>
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-success">
+                    <a 
+                        href="https://grocerybootylist.herokuapp.com/" 
+                        title="djangoREST + angular"
+                        class="button-text"
+                    >
+                        Grocery List
+                    </a>
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-default">
+                    <a 
+                        href="https://datebyhate.herokuapp.com/accounts/login/?next=/" 
+                        alt="final project"
+                        title="django + djangoREST + angular"
+                    >
+                        Date by Hate
+                    </a>
+                </button>
+            </div>
+        </div> <!-- button ROW -->
+    </div> <!-- main COL -->
 </div>
 <p></p>
 <!-- EXPLANATION of projects-->
 <div class="row">
     <div class="col-md-8 explanation-bg">
         <div class="explanation">
-            <h3>Date-by-Hate</h3>
-            Having some issues with cross-domain requests; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
+            <div ng-show="body.datebyhate">
+                <h3>Date-by-Hate</h3>
+                Having some issues with <code>cross-domain requests</code>; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
+            </div>
+            <div ng-show="body.dotheangle">
+                <h3>Do the Angle</h3>
+                A to-do list made with Angular; this simple app relies a lot of <code>ng-show</code> and ternary functions. I am currently delving into <em>UI-router</em> for bigger projects which need to be split into <em>components</em>.
+            </div>
         </div>
     </div>
 </div>
