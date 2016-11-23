@@ -2,80 +2,142 @@
 layout: page
 title: launch page
 ---
-
-<h2>Deployed Projects<br />
-    <small>Personal projects</small>
-</h2>
-<!-- project navigation -->
 <div class="row">
-    <div class="col-md-3">
-        <div class="btn-group">
-            <button type="button" class="btn btn-success">barkin@pp</button>
-            <button type="button" 
-                class="btn btn-success dropdown-toggle" 
-                data-toggle="dropdown" 
-                aria-haspopup="true" 
-                aria-expanded="false"
-            >
-                <span class="caret"></span>
-                <span class="sr-only">Toggle Dropdown</span>
-            </button> 
-            <ul class="dropdown-menu">
-                <li>
-                    <a 
-                        href="https://evening-fortress-43547.herokuapp.com/" 
-                        title="my twitter clone"
-                    >Check out Barkin@pp
-                    </a>
-                </li>
-
-                <li ng-click="body.showBark">
-                    <a href="#"
-                    >Details
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <div class="col-md-12">
+        <h2>Deployed Projects<br />
+            <small>Personal projects</small>
+        </h2>
+<!-- project navigation -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-lg btn-success">
+                        Barkin@app
+                    </button>
+                    <button type="button" 
+                        class="btn btn-lg btn-success dropdown-toggle" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                    >
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button> 
+                    <ul class="dropdown-menu">
+                        <li ng-click="body.showBark">
+                            <a href="#"
+                            >Details
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://evening-fortress-43547.herokuapp.com/" 
+                                title="my twitter clone"
+                            >Check it out!
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
             <div class="col-md-3">
-                <button class="btn btn-success">
-                    <a 
-                        href="https://billbunkum.github.io/do-the-angle/" 
-                        title="angular to-do list"
-                        class="button-text"
-                    >
+                <div class="btn-group">
+                    <button type="button" class="btn btn-lg btn-success">
                         Do the Angle
-                    </a>
-                </button>
+                    </button>
+                    <button type="button" 
+                        class="btn btn-lg btn-success dropdown-toggle" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                    >
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"
+                            >Details
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://billbunkum.github.io/do-the-angle/"
+                                title="angular to-do list"
+                            >Check it out!
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="col-md-3">
-                <button class="btn btn-success">
-                    <a 
-                        href="https://grocerybootylist.herokuapp.com/" 
-                        title="djangoREST + angular"
-                        class="button-text"
-                    >
+                <div class="btn-group">
+                    <button type="button" class="btn btn-lg btn-success">
                         Grocery List
-                    </a>
-                </button>
+                    </button>
+                    <button type="button" 
+                        class="btn btn-lg btn-success dropdown-toggle" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                    >
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"
+                            >Details
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://grocerybootylist.herokuapp.com/" 
+                                title="djangoREST + angular"
+                                class="button-text"
+                            >Check it out!
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="col-md-3">
-                <button class="btn btn-default">
-                    <a 
-                        href="https://datebyhate.herokuapp.com/accounts/login/?next=/" 
-                        alt="final project"
-                        title="django + djangoREST + angular"
-                    >
+                <div class="btn-group">
+                    <button type="button" class="btn btn-lg btn-default">
                         Date by Hate
-                    </a>
-                </button>
+                    </button>
+                    <button type="button" 
+                        class="btn btn-lg btn-default dropdown-toggle" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                    >
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"
+                            >Details
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://datebyhate.herokuapp.com/accounts/login/?next=/" 
+                                title="django + djangoREST + angular"
+                            >Check it out!
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-</div>
+        </div>
+    </div> <!-- col -->
+</div> <!-- row -->
 <p></p>
 <!-- EXPLANATION of projects-->
 <div class="row">
-    <div class="col-md-8 explanation-bg">
+    <div class="col-md-12 explanation-bg">
         <div class="explanation">
             <div ng-show="!body.datebyhate">
                 <h3>Date-by-Hate</h3>
@@ -94,7 +156,7 @@ title: launch page
         <h3>Walk-thru projects<br />
             <small>Used to learn fundamentals in class</small>
         </h3>
-        <button class="btn btn-success">
+        <button class="btn btn-info">
             <a 
                 href="https://rocky-gorge-46988.herokuapp.com/" 
                 alt="open-weather-app"

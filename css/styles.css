@@ -42,6 +42,10 @@ footer.bottom {
   padding-top: 100px;
 }
 
+.btn-group {
+  margin-top: 5px;
+}
+
 .jumbotron {
   padding: 10px 15px;
   margin: 0px;
