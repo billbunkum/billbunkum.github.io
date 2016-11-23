@@ -1,44 +1,42 @@
 ---
 layout: page
-title: Here I am
+title: launch page
 ---
 
-<!-- LINKS to projects -->
-<div class="row">
-    <div class="col-md-12">
-        <h2>Deployed Projects<br />
-            <small>Personal projects</small>
-        </h2>
+<h2>Deployed Projects<br />
+    <small>Personal projects</small>
+</h2>
 <!-- project navigation -->
-        <div class="row">
-            <div class="col-md-3">
-                <div class="dropdown">
-                    <button 
-                        class="btn btn-success dropdown-toggle"
-                        type="button"
-                        id="barkin"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="true"
-                    >
-                        Barkin@pp
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="barkin">
-                        <li>
-                            <a 
-                                href="https://evening-fortress-43547.herokuapp.com/" 
-                                title="my twitter clone"
-                            >
-                                Check out Barkin@pp
-                            </a>
-                        </li>
-                        <li ng-click="body.showBark">
-                            Details
-                        </li>
-                    </ul>
-                </div> <!-- drop down -->
-            </div>
+<div class="row">
+    <div class="col-md-3">
+        <div class="btn-group">
+            <button type="button" class="btn btn-success">barkin@pp</button>
+            <button type="button" 
+                class="btn btn-success dropdown-toggle" 
+                data-toggle="dropdown" 
+                aria-haspopup="true" 
+                aria-expanded="false"
+            >
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button> 
+            <ul class="dropdown-menu">
+                <li>
+                    <a 
+                        href="https://evening-fortress-43547.herokuapp.com/" 
+                        title="my twitter clone"
+                    >Check out Barkin@pp
+                    </a>
+                </li>
+
+                <li ng-click="body.showBark">
+                    <a href="#"
+                    >Details
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
             <div class="col-md-3">
                 <button class="btn btn-success">
@@ -73,8 +71,6 @@ title: Here I am
                     </a>
                 </button>
             </div>
-        </div> <!-- button ROW -->
-    </div> <!-- main COL -->
 </div>
 <p></p>
 <!-- EXPLANATION of projects-->
