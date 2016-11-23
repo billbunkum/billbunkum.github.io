@@ -1,6 +1,7 @@
 url: /favicon.ico
 static_files: media/img/favicon.ico
 upload: media/img/favicon.ico
+app: /app.js
 
 title: Bill Bunkum
 github: https://github.com/billbunkum
@@ -9,6 +10,7 @@ fb: https://www.facebook.com/williamrichardhurst
 linkedin: http://www.linkedin.com/in/billbunkum
 twitter: https://twitter.com/billbunkum
 rando-blog: http://billbunkum.blogspot.com
+trello: https://trello.com/billbunkum
 
 dreadlore-image: /dreadlore-shirt.jpg
 
@@ -21,5 +23,6 @@ formspree-email: https://formspree.io/william.richard.hurst@gmail.com
 e-mail: william.richard.hurst@gmail.com
 
 projects-list: /2016/10/18/projectsList.html
+obstacles: /2016/11/22/obstacles.html
 
 awesomeinc: https://www.awesomeinc.org/

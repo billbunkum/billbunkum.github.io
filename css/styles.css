@@ -2,6 +2,7 @@
 /*blue #648287 */
 /*light blue #BAC4C6 */
 /*green #648287*/
+/*super light gray/blue #C0CBCD*/
 /* dev blog*/
 .center {
   margin-left: 100px
@@ -17,7 +18,7 @@ a:link, a:visited, a:active {
   font-weight: bolder;
   text-decoration: none;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 a:hover {
@@ -33,11 +34,16 @@ ul {
 
 body {
   margin: 0 auto;
+  font-size: 20px;
 }
 
 /* allows bottom of page to not be obscured by footer navbar */
 footer.bottom {
   padding-top: 100px;
+}
+
+.btn-group {
+  margin-top: 5px;
 }
 
 .jumbotron {
@@ -65,7 +71,17 @@ a.button-text {
 
 .navbar {
   background-color: #BAC4C6;
-  margin: 0px;
+  margin: 0 auto;
+}
+
+.explanation-bg {
+  background-color: #648287;
+  padding: 5px 0;
+}
+
+.explanation {
+  padding: 5px;
+  background-color: #C0CBCD;
 }
 
 /* about page VIDEO */
@@ -73,11 +89,10 @@ a.button-text {
   margin: 50px;
 }
 
-
 /* used in Blog posts in _posts */
 .blog-blurb-text {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .signature {

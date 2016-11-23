@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html 
+    lang="en"
+    ng-app="root"
+    >
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bunkum Profile</title>
@@ -9,14 +12,27 @@
 
 <!--bootstrappin' it up -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script> -->
+<!-- Latest compiled and minified JavaScript -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<!-- angular -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<!-- ramda -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/ramda/0.22.1/ramda.min.js"></script>
 
+<!-- angular file to inject -->
+<script src="{{site.app}}"></script>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="/css/styles.css" />
 
 </head>
-<body>
+<body ng-cloak 
+    ng-controller="RootCtrl as body"
+>
 <!-- collapsability -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -46,8 +62,9 @@
             <ul class="nav navbar nav-tabs navbar-static-top">
                 <li><a href={{site.home-page}}>Home</a></li>
                 <li><a href={{site.about-page}}>About</a></li>
-                <li><a href={{site.contact}}>Contact</a></li>
+                <li><a href={{site.contact}}>Contact Me</a></li>
                 <li><a href={{site.bootcamp-blog}}>Bootcamp-blog</a></li>
+                <li><a href="{{site.trello}}">Workflow</a></li>
             </ul>
         </div>
         <header>
