@@ -1,6 +1,7 @@
 url: /favicon.ico
 static_files: media/img/favicon.ico
 upload: media/img/favicon.ico
+app: /app.js
 
 title: Bill Bunkum
 github: https://github.com/billbunkum
