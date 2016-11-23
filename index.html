@@ -159,24 +159,35 @@ title: launch page
         <div class="explanation">
             <div ng-show="body.barkinapp">
                 <h3>Barkin@pp</h3>
-                ...details
+                I made this twitter-clone using a Django back-end; the toughest part was understanding how <code>django models</code> work; the <code>django user model</code> gave me trouble as there are plenty of abstractions occuring in the background (or as we called it <em>Django magic</em>). Barkin@pp got me used to building &amp; troubleshooting a well-thought-out back-end.
             </div>
 
             <div ng-show="body.dotheangle">
                 <h3>Do the Angle</h3>
-                A to-do list made with Angular; this simple app relies a lot of <code>ng-show</code> and ternary functions. I am currently delving into <em>UI-router</em> for bigger projects which need to be split into <em>components</em>.
+                A to-do list made with Angular; this simple app relies on <code>ng-show</code> and ternary functions - which are great for smaller functionalities. I am currently delving into <em>UI-router</em> for bigger projects which need to be split into <em>components</em>.
             </div>
 
             <div ng-show="body.grocerylist">
                 <h3>Grocery List</h3>
-                ...details
+                An improvement on the angular to-do list, this app persists data! The goal was to have a usable app which did not require page refreshing. I have actually used this one off the cuff for a quick, online to-do list.
             </div>
 
             <div ng-show="body.datebyhate">
                 <h3>Date-by-Hate</h3>
-                Having some issues with <code>cross-domain requests</code>; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
+                DBH was my final project at the Bootcamp; it's realy a fun idea - match people by movies they hate! I'm having issues with <code>cross-domain requests</code>; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
             </div>
         </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>On-going projects<br />
+            <small>Freelance &amp; collaborations</small>
+        </h3>
+            <button class="btn btn-success">
+                <a href="http://kavakings.com/" class="button-text">Kavakings</a>
+            </button>
     </div>
 </div>
 
