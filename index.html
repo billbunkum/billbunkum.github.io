@@ -2,13 +2,14 @@
 layout: page
 title: launch page
 ---
+<!-- project navigation row -->
 <div class="row">
     <div class="col-md-12">
         <h2>Deployed Projects<br />
             <small>Personal projects</small>
         </h2>
-<!-- project navigation -->
         <div class="row">
+<!-- BARKIN@PP -->
             <div class="col-md-3">
                 <div class="btn-group">
                     <button type="button" class="btn btn-lg btn-success">
@@ -24,8 +25,10 @@ title: launch page
                         <span class="sr-only">Toggle Dropdown</span>
                     </button> 
                     <ul class="dropdown-menu">
-                        <li ng-click="body.showBark">
-                            <a href="#"
+                        <li 
+                            ng-click="body.getDetailsBarkinApp()"
+                        >
+                            <a href=""
                             >Details
                             </a>
                         </li>
@@ -40,6 +43,7 @@ title: launch page
                 </div>
             </div>
 
+<!-- DO THE ANGLE -->
             <div class="col-md-3">
                 <div class="btn-group">
                     <button type="button" class="btn btn-lg btn-success">
@@ -55,8 +59,10 @@ title: launch page
                         <span class="sr-only">Toggle Dropdown</span>
                     </button>
                     <ul class="dropdown-menu">
-                        <li>
-                            <a href="#"
+                        <li 
+                            ng-click="body.getDetailsDoTheAngle()"
+                        >
+                            <a href=""
                             >Details
                             </a>
                         </li>
@@ -70,6 +76,8 @@ title: launch page
                     </ul>
                 </div>
             </div>
+
+<!-- GROCERY LIST -->
             <div class="col-md-3">
                 <div class="btn-group">
                     <button type="button" class="btn btn-lg btn-success">
@@ -85,8 +93,10 @@ title: launch page
                         <span class="sr-only">Toggle Dropdown</span>
                     </button>
                     <ul class="dropdown-menu">
-                        <li>
-                            <a href="#"
+                        <li 
+                            ng-click="body.getDetailsGroceryList()"
+                        >
+                            <a href=""
                             >Details
                             </a>
                         </li>
@@ -101,6 +111,8 @@ title: launch page
                     </ul>
                 </div>
             </div>
+
+<!-- DATE BY HATE -->
             <div class="col-md-3">
                 <div class="btn-group">
                     <button type="button" class="btn btn-lg btn-default">
@@ -116,8 +128,10 @@ title: launch page
                         <span class="sr-only">Toggle Dropdown</span>
                     </button>
                     <ul class="dropdown-menu">
-                        <li>
-                            <a href="#"
+                        <li 
+                            ng-click="body.getDetailsDateByHate()"
+                        >
+                            <a href=""
                             >Details
                             </a>
                         </li>
@@ -135,17 +149,32 @@ title: launch page
     </div> <!-- col -->
 </div> <!-- row -->
 <p></p>
+
 <!-- EXPLANATION of projects-->
+<!-- NEEDS change from ng-show to ng-include, separate explanations into html pages -->
 <div class="row">
-    <div class="col-md-12 explanation-bg">
+    <div class="col-md-12 explanation-bg"
+        ng-show="body.details"
+    >
         <div class="explanation">
-            <div ng-show="!body.datebyhate">
-                <h3>Date-by-Hate</h3>
-                Having some issues with <code>cross-domain requests</code>; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
+            <div ng-show="body.barkinapp">
+                <h3>Barkin@pp</h3>
+                ...details
             </div>
+
             <div ng-show="body.dotheangle">
                 <h3>Do the Angle</h3>
                 A to-do list made with Angular; this simple app relies a lot of <code>ng-show</code> and ternary functions. I am currently delving into <em>UI-router</em> for bigger projects which need to be split into <em>components</em>.
+            </div>
+
+            <div ng-show="body.grocerylist">
+                <h3>Grocery List</h3>
+                ...details
+            </div>
+
+            <div ng-show="body.datebyhate">
+                <h3>Date-by-Hate</h3>
+                Having some issues with <code>cross-domain requests</code>; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
             </div>
         </div>
     </div>
