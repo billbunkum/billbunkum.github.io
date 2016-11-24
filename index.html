@@ -115,11 +115,11 @@ title: launch page
 <!-- DATE BY HATE -->
             <div class="col-md-3">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-lg btn-default">
+                    <button type="button" class="btn btn-lg btn-success">
                         Date by Hate
                     </button>
                     <button type="button" 
-                        class="btn btn-lg btn-default dropdown-toggle" 
+                        class="btn btn-lg btn-success dropdown-toggle" 
                         data-toggle="dropdown" 
                         aria-haspopup="true" 
                         aria-expanded="false"
@@ -174,7 +174,13 @@ title: launch page
 
             <div ng-show="body.datebyhate">
                 <h3>Date-by-Hate</h3>
-                DBH was my final project at the Bootcamp; it's realy a fun idea - match people by movies they hate! I'm having issues with <code>cross-domain requests</code>; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
+                DBH was my final project at the Bootcamp; it's really a fun idea - match people by movies they hate! <br />
+                <h4>UPDATE 11.22.16</h4>
+                    Fixed the issue! Turns out the problem was how I was retrieving a media file via <code>http</code>; I simply hard-coded the file. <em>Boom</em>!<br />
+                <div class="solved">
+                <h4>ISSUE 11.16.16</h4>
+                    I'm having issues with <code>cross-domain requests</code>; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
+                </div>
             </div>
         </div>
     </div>
