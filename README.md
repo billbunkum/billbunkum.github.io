@@ -1,4 +1,22 @@
-#CONSTRUCTION!
+# Bill Bunkum's online portfolio
++ The focus of this site is to showcase several projects which I completed during my bootcamp; we engaged in three kinds of projects:
+    1. Solo projects
+        1. Final Projects
+            * We formulated the idea and coded the project on our own
+            * Our lead instructor gave us help using Gulp & Webpack
+        2. Guided
+            * We were given definitive parameters and deadlines on what to create
+            * Problem-solving would take the form of online searches, helping out cohort members and talking through (rubber-ducking) problems with teachers.
+    2. Pair-programming
+        * Random pairs were selected and we were given a task(s) to complete within a certain amount of time (usually 1-3 days)
+        * We focused on a Git, Trello, Slack work-flow and a Scrum methodology
+        * Groups would present projects to the class upon completion followed up by a brief critique
+    3. Guided coding
+        * Our lead instructor would walk us through a new technology or tool
+        * We would match what he did asking questions as we went
+        * We would attempt to extend/mutate the results
+
+## CONSTRUCTION! Beware.
 + Bear in mind, I am hot off the heels of our Bootcamp final project and am now re-vamping this site with all the fancy tools I learned over the past 3 months!
 
 # billbunkum.github.io

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: launch page
+title: index
 ---
 <!-- project navigation row -->
 <div class="row">
@@ -12,13 +12,59 @@ title: launch page
 <!-- BARKIN@PP -->
             <div class="col-md-3">
                 <div class="btn-group">
-
+                    <button type="button"
+                        class="btn btn-lg btn-success"
+                        data-toggle="modal"
+                        data-target="#barkin-modal"
+                    >Barkin@pp
+                    </button>
+<!-- barkin@pp modal -->
+                    <div class="modal fade"
+                        id="barkin-modal"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-labelledby="barkin-label"
+                    >
+                        <div class="modal-dialog"
+                            role="document"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button"
+                                        class="close"
+                                        data-dismiss="modal"
+                                        aria-label="Close"
+                                    >
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title"
+                                        id="barkin-title"
+                                    >Barkin@pp
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="{{site.barkinapp-image}}"
+                                        title="preview"
+                                        width="500"
+                                    >
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button"
+                                        class="btn btn-default"
+                                        data-dismiss="modal"
+                                    >Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- barkin@pp caret -->
                     <button type="button" 
                         class="btn btn-lg btn-success dropdown-toggle" 
                         data-toggle="dropdown" 
                         aria-haspopup="true" 
                         aria-expanded="false"
-                    >Barkin@pp
+                    >
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>
                     </button> 
@@ -39,7 +85,7 @@ title: launch page
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> <!-- col END -->
 
 <!-- DO THE ANGLE -->
             <div class="col-md-3">
