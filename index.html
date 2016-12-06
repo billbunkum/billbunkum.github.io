@@ -25,7 +25,7 @@ title: index
                         role="dialog"
                         aria-labelledby="barkin-label"
                     >
-                        <div class="modal-dialog"
+                        <div class="modal-dialog modal-lg"
                             role="document"
                         >
                             <div class="modal-content">
@@ -38,15 +38,21 @@ title: index
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                     <h4 class="modal-title"
-                                        id="barkin-title"
-                                    >Barkin@pp
+                                        id="barkin-label"
+                                    >Barkin@pp Preview
                                     </h4>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="{{site.barkinapp-image}}"
-                                        title="preview"
-                                        width="500"
-                                    >
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-8">
+                                            <img src="/barkinapp-splash.png"
+                                                title="preview"
+                                                width="600"
+                                            >
+                                        </div>
+                                        <div class="col-md-2"></div>
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button"
@@ -58,6 +64,7 @@ title: index
                             </div>
                         </div>
                     </div>
+<!-- modal END -->
 <!-- barkin@pp caret -->
                     <button type="button" 
                         class="btn btn-lg btn-success dropdown-toggle" 
@@ -90,12 +97,66 @@ title: index
 <!-- DO THE ANGLE -->
             <div class="col-md-3">
                 <div class="btn-group">
+                    <button type="button"
+                        class="btn btn-success btn-lg"
+                        data-toggle="modal"
+                        data-target="#do-the-angle-modal"
+                    >Do the Angle
+                    </button>
+<!-- do the angle modal -->
+                    <div class="modal fade"
+                        id="do-the-angle-modal"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-labelledby="do-the-angle-label"
+                    >
+                        <div class="modal-dialog modal-lg"
+                            role="document"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button"
+                                        class="close"
+                                        data-dismiss="modal"
+                                        aria-label="Close"
+                                    >
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title"
+                                        id="do-the-angle-label"
+                                    >Do the Angle Preview
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-8">
+                                            <img src="/do-the-angle-preview.png"
+                                                width="600"
+                                                alt="do the angle preview"
+                                            >
+                                        </div>
+                                        <div class="col-md-2"></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button"
+                                        class="btn btn-default"
+                                        data-dismiss="modal"
+                                    >Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- modal END -->
+<!-- do the angle caret -->
                     <button type="button" 
                         class="btn btn-lg btn-success dropdown-toggle" 
                         data-toggle="dropdown" 
                         aria-haspopup="true" 
                         aria-expanded="false"
-                    >Do the Angle
+                    >
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>
                     </button>
@@ -117,16 +178,62 @@ title: index
                     </ul>
                 </div>
             </div>
+<!-- col END -->
 
 <!-- GROCERY LIST -->
             <div class="col-md-3">
                 <div class="btn-group">
+                    <button type="button"
+                        class="btn btn-success btn-lg"
+                        data-target="#grocery-list-modal"
+                        data-toggle="modal"
+                    >Grocery List
+                    </button>
+<!-- grocery list modal -->
+                    <div class="modal fade"
+                        id="grocery-list-modal"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-labelledby="grocery-list-label"
+                    >
+                        <div class="modal-dialog modal-lg"
+                            role="document"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button"
+                                        class="close"
+                                        data-dismiss="modal"
+                                        aria-label="Close"
+                                    >
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title"
+                                        id="grocery-list-label"
+                                    >Grocery List Preview
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    &hellip;
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button"
+                                        class="btn btn-default"
+                                        data-dismiss="modal"
+                                    >Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- end modal -->
+<!-- grocery list caret -->
                     <button type="button" 
                         class="btn btn-lg btn-success dropdown-toggle" 
                         data-toggle="dropdown" 
                         aria-haspopup="true" 
                         aria-expanded="false"
-                    >Grocery List
+                    >
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>
                     </button>
@@ -147,18 +254,66 @@ title: index
                             </a>
                         </li>
                     </ul>
+<!-- btn-group -->
                 </div>
+<!-- col END -->
             </div>
 
 <!-- DATE BY HATE -->
             <div class="col-md-3">
                 <div class="btn-group">
+                    <button type="button"
+                        class="btn btn-success btn-lg"
+                        data-target="#date-by-hate-modal"
+                        data-toggle="modal"
+                    >Date by Hate
+                    </button>
+<!-- date by hate modal -->
+                    <div class="modal fade"
+                        id="date-by-hate-modal"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-labelledby="date-by-hate-label"
+                    >
+                        <div class="modal-dialog"
+                            role="document"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button"
+                                        class="close"
+                                        data-dismiss="modal"
+                                        aria-label="Close"
+                                    >
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title"
+                                        id="date-by-hate-title"
+                                    >Date by Hate Preview
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    &hellip;
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button"
+                                        class="btn btn-default"
+                                        data-dismiss="modal"
+                                    >
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- end modal -->
+<!-- date by hate caret -->
                     <button type="button" 
                         class="btn btn-lg btn-success dropdown-toggle" 
                         data-toggle="dropdown" 
                         aria-haspopup="true" 
                         aria-expanded="false"
-                    >Date by Hate
+                    >
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>
                     </button>
@@ -178,11 +333,15 @@ title: index
                             </a>
                         </li>
                     </ul>
+<!-- btn-group end -->
                 </div>
+<!-- col end -->
             </div>
         </div>
-    </div> <!-- col -->
-</div> <!-- row -->
+<!-- big col -->
+    </div>
+<!-- big row -->
+</div>
 <p></p>
 
 <!-- EXPLANATION of projects-->
