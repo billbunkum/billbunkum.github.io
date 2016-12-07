@@ -3,6 +3,7 @@
 /*light blue #BAC4C6 */
 /*green #648287*/
 /*super light gray/blue #C0CBCD*/
+/* extra light gray #EAECED*/
 /* dev blog*/
 .center {
   margin-left: 100px
@@ -76,13 +77,17 @@ a.button-text {
 
 /* index */
 .explanation-bg {
-  background-color: #648287;
-  padding: 5px 0;
+  /*border color*/
+  background: #000000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C0CBCD), to(#eaeced));
+  padding: 1px;
 }
 
 .explanation {
-  padding: 5px;
-  background-color: #C0CBCD;
+  /*middle part*/
+  padding: 8px;
+  background: #EAECED;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eaeced), to(#c0cbcd));
 }
 
 .solved {
