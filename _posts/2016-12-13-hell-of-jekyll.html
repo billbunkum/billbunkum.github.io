@@ -31,11 +31,15 @@ title: Hell of a Jekyll
             <h3>The problem?</h3>
             In a nutshell, the <code>_site</code> folder was updating <em>exactly</em> what was written in any file in the root folder. That means, that instead of rendering (or, piecing together) all the little bits and bops like Jekyll is supposed to do, Jekyll was directly adding YAML as text.<br />
             That not make sense? Not enough <em>detail</em> for all you Stack-Over-Flow guys n' gals? Lemme break it down further.<br />
-            
+            ...
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
             <h3>The solution</h3>
+            I needed to <em>flush</em> the <code>_site</code> folder. That's the best explanation I can come up with. I couldn't find anything of the sort on the interwebs - that might be my own short-coming, and I nearly wrote a SOF Question to figure this out...I just can't be bothered to <em>prove</em> myself to you bastards. No offense. :}<br />
+
+            <code>$ jekyll clean</code> does the trick, i.e. it erases the build within your <code>_site</code>.<br />
+            Follow that up with: <code>$ jekyll build</code> and you're good to go.
         </div>
     </div>
