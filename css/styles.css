@@ -39,7 +39,11 @@ body {
 }
 
 img.thumbs {
-  width: 250px;
+  width: 10em;
+}
+
+img.dp-thumbs {
+  width: 7em;
 }
 
 /* allows bottom of page to not be obscured by footer navbar */
