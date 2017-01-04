@@ -38,6 +38,10 @@ body {
   font-size: 20px;
 }
 
+img.thumbs {
+  width: 250px;
+}
+
 /* allows bottom of page to not be obscured by footer navbar */
 footer.bottom {
   padding-top: 100px;
