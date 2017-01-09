@@ -89,6 +89,8 @@ a.button-text {
   background: #000000;
   background: -webkit-gradient(linear, left top, left bottom, from(#C0CBCD), to(#eaeced));
   padding: 1px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .explanation {

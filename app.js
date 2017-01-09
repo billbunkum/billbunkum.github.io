@@ -13,40 +13,37 @@ function RootController() {
     ctrl.grocerylist = false;
     ctrl.datebyhate = false;
 
+    function showDetails() {
+        ctrl.details = true;
+        ctrl.barkinapp = false;
+        ctrl.dotheangle = false;
+        ctrl.grocerylist = false;
+        ctrl.datebyhate = false;
+    }
+
 // controller functions
     function getDetailsBarkinApp() {
-    ctrl.details = true;
-    ctrl.barkinapp = true;
-    ctrl.dotheangle = false;
-    ctrl.grocerylist = false;
-    ctrl.datebyhate = false;
+        showDetails();
+        ctrl.barkinapp = true;
     }
 
     function getDetailsDoTheAngle() {
-    ctrl.details = true;
-    ctrl.barkinapp = false;
-    ctrl.dotheangle = true;
-    ctrl.grocerylist = false;
-    ctrl.datebyhate = false;
+        showDetails();
+        ctrl.dotheangle = true;
     }
 
     function getDetailsGroceryList() {
-    ctrl.details = true;
-    ctrl.barkinapp = false;
-    ctrl.dotheangle = false;
-    ctrl.grocerylist = true;
-    ctrl.datebyhate = false;
+        showDetails();
+        ctrl.grocerylist = true;
     }
 
     function getDetailsDateByHate() {
-    ctrl.details = true;
-    ctrl.barkinapp = false;
-    ctrl.dotheangle = false;
-    ctrl.grocerylist = false;
-    ctrl.datebyhate = true;
+        showDetails();
+        ctrl.datebyhate = true;
     }
 
 // defined controller functions
+    ctrl.showDetails = showDetails;
     ctrl.getDetailsBarkinApp = getDetailsBarkinApp;
     ctrl.getDetailsDoTheAngle = getDetailsDoTheAngle;
     ctrl.getDetailsGroceryList = getDetailsGroceryList;

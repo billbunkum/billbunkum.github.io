@@ -104,12 +104,12 @@ title: index
             <div class="col-xs-2"></div>
         </div> <!-- row END -->
 
-<div class="row">
-    <div class="col-xs-12 col-md-8 col-md-offset-2 explanation-bg"
-        ng-show="body.details"
-    >
-        <div class="explanation">
-            <div ng-show="body.barkinapp">
+<div ng-show="body.barkinapp">
+    <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 explanation-bg"
+            ng-show="body.details"
+        >
+            <div class="explanation">
                 <h3>Barkin@pp</h3>
                 I made this twitter-clone using a Django back-end; the toughest part was understanding how <code>django models</code> work; the <code>django user model</code> gave me trouble as there are plenty of abstractions occuring in the background (or as we called it <em>Django magic</em>). Barkin@pp got me used to building &amp; troubleshooting a well-thought-out back-end.
                 <h4>UPDATE 11.25.16</h4>
@@ -216,12 +216,12 @@ title: index
             <div class="col-xs-2"></div>
         </div> <!-- row end -->
 
-<div class="row">
-    <div class="col-xs-12 col-md-8 col-md-offset-2 explanation-bg"
-        ng-show="body.details"
-    >
-        <div class="explanation">
-            <div ng-show="body.dotheangle">
+<div ng-show="body.dotheangle">
+    <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 explanation-bg"
+            ng-show="body.details"
+        >
+            <div class="explanation">
                 <h3>Do the Angle</h3>
                 A to-do list made with Angular; this simple app relies on <code>ng-show</code> and ternary functions - which are great for smaller functionalities. I am currently delving into <em>UI-router</em> for bigger projects which need to be split into <em>components</em>.
             </div>
@@ -328,12 +328,14 @@ title: index
             </div>
             <div class="col-xs-2"></div>
         </div> <!-- row end -->
-<div class="row">
-    <div class="col-xs-12 col-md-8 col-md-offset-2 explanation-bg"
-        ng-show="body.details"
-    >
-        <div class="explanation">
-            <div ng-show="body.grocerylist">
+
+
+<div ng-show="body.grocerylist">
+    <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 explanation-bg"
+            ng-show="body.details"
+        >
+            <div class="explanation">
                 <h3>Grocery List</h3>
                 An improvement on the angular to-do list, this app persists data! The goal was to have a usable app which did not require page refreshing. I have actually used this one off the cuff for a quick, online to-do list.
             </div>
@@ -447,12 +449,12 @@ title: index
 <!-- EXPLANATION of projects-->
 <!-- NEEDS change from ng-show to ng-include, separate explanations into html pages -->
 
-<div class="row">
-    <div class="col-xs-12 col-md-8 col-md-offset-2 explanation-bg"
-        ng-show="body.details"
-    >
-        <div class="explanation">
-            <div ng-show="body.datebyhate">
+<div ng-show="body.datebyhate">
+    <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 explanation-bg"
+            ng-show="body.details"
+        >
+            <div class="explanation">
                 <h3>Date-by-Hate</h3>
                 DBH was my final project at the Bootcamp; it's really a fun idea - match people by movies they hate! <br />
                 <h4>UPDATE 11.22.16</h4>
