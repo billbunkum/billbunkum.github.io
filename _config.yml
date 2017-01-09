@@ -33,3 +33,8 @@ dev-blog-chalkley: http://blog.teamtreehouse.com/land-a-job-in-development
 dev-blog-elsh: https://www.quora.com/How-do-I-transform-myself-from-an-average-programmer-with-a-CS-degree-to-one-of-the-best-programmers-in-ten-years
 worthless-blog: http://www.wikihow.com/Get-a-Software-Development-Job
 other-worthless-blog: http://www.popsugar.com/tech/How-Get-Web-Developer-Job-23116292
+
+barkinapp-deploy: https://evening-fortress-43547.herokuapp.com/
+dotheangle-deploy: 
+grocery-deploy: https://grocerybootylist.herokuapp.com/
+datbyhate-deploy: https://datebyhate.herokuapp.com/accounts/login/?next=/
