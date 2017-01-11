@@ -51,6 +51,7 @@ footer.bottom {
   padding-top: 100px;
 }
 
+
 .btn-group {
   margin-top: 5px;
 }
@@ -135,3 +136,16 @@ a.button-text {
   color: grey;
 }
 
+/* intext elements */
+
+.cursive {
+  font-style: oblique;
+}
+
+.bold {
+  font-style: bold;
+}
+
+.latin {
+  font-style: italic;
+}
