@@ -154,3 +154,7 @@ a.button-text {
 .latin {
   font-style: italic;
 }
+
+iframe#about-imbed-youtube {
+  width: 100%;
+}
