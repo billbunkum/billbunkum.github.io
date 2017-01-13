@@ -157,4 +157,7 @@ span.latin {
 
 iframe#about-imbed-youtube {
   width: 100%;
+  height: 30em;
+  max-width: 32em; 
+  max-height: 10em;
 }
