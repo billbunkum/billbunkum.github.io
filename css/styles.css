@@ -38,12 +38,17 @@ body {
   font-size: 20px;
 }
 
-img.thumbs {
+/*img.thumbs {
   width: 10em;
+}*/
+
+.modal-thumbs {
+  width: 100%;
+
 }
 
 img.dp-thumbs {
-  width: 7em;
+  width: 10em;
 }
 
 /* allows bottom of page to not be obscured by footer navbar */
