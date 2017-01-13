@@ -143,15 +143,15 @@ a.button-text {
 
 /* intext elements */
 
-.cursive {
+.bold {
+  font-weight: bold;
+}
+
+span.cursive {
   font-style: oblique;
 }
 
-.bold {
-  font-style: bold;
-}
-
-.latin {
+span.latin {
   font-style: italic;
 }
 
