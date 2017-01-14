@@ -51,11 +51,14 @@ img.dp-thumbs {
   width: 10em;
 }
 
-/* allows bottom of page to not be obscured by footer navbar */
-footer.bottom {
-  padding-top: 100px;
+footer.bottom ul li a {
+  font-size: 18px;
 }
 
+/* allows bottom of page to not be obscured by footer navbar */
+footer.bottom {
+  padding-top: 120px;
+}
 
 .btn-group {
   margin-top: 5px;
