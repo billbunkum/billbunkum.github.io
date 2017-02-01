@@ -83,6 +83,10 @@ a.button-text {
   color: #ffffff;
 }
 
+li > a.footer-text {
+  color: #ffffff;
+}
+
 .jumbo-image {
   position: relative;
   float: none;
