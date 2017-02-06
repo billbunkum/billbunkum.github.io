@@ -13,6 +13,7 @@ rando-blog: http://billbunkum.blogspot.com
 trello: https://trello.com/billbunkum
 selected-works-wordpress: https://willhurstartportfolio.wordpress.com/selected-works-art-portfolio
 
+kavakings-splash: /kavakings_splash.png
 dreadlore-image: /dreadlore-shirt.jpg
 barkinapp-image: /barkinapp-splash.png
 kavakings-img-root: http://kavakings.com/image_main/
@@ -35,6 +36,7 @@ dev-blog-elsh: https://www.quora.com/How-do-I-transform-myself-from-an-average-p
 worthless-blog: http://www.wikihow.com/Get-a-Software-Development-Job
 other-worthless-blog: http://www.popsugar.com/tech/How-Get-Web-Developer-Job-23116292
 
+kavakings-deploy: https://kavakings.github.io/
 barkinapp-deploy: https://evening-fortress-43547.herokuapp.com/
 dotheangle-deploy: https://billbunkum.github.io/do-the-angle/
 grocery-deploy: https://grocerybootylist.herokuapp.com/

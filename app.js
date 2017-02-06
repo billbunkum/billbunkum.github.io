@@ -12,9 +12,11 @@ function RootController() {
     ctrl.dotheangle = false;
     ctrl.grocerylist = false;
     ctrl.datebyhate = false;
+    ctrl.kavakings = false;
 
     function showDetails() {
         ctrl.details = true;
+        ctrl.kavakings = false;
         ctrl.barkinapp = false;
         ctrl.dotheangle = false;
         ctrl.grocerylist = false;
@@ -22,6 +24,11 @@ function RootController() {
     }
 
 // controller functions
+    function getDetailsKavakings() {
+        showDetails();
+        ctrl.kavakings = true;
+    }
+
     function getDetailsBarkinApp() {
         showDetails();
         ctrl.barkinapp = true;
@@ -44,6 +51,7 @@ function RootController() {
 
 // defined controller functions
     ctrl.showDetails = showDetails;
+    ctrl.getDetailsKavakings = getDetailsKavakings;
     ctrl.getDetailsBarkinApp = getDetailsBarkinApp;
     ctrl.getDetailsDoTheAngle = getDetailsDoTheAngle;
     ctrl.getDetailsGroceryList = getDetailsGroceryList;
