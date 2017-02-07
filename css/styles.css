@@ -56,8 +56,14 @@ img .img-circle {
   
 }
 
+footer > ul > li > a > img {
+  width: 50px;
+}
+
 footer.bottom ul li a {
-  font-size: 18px;
+  /*font-size: 18px;*/
+  font-size: 1.4em;
+  clear: both;
 }
 
 /* allows bottom of page to not be obscured by footer navbar */
