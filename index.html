@@ -128,6 +128,10 @@ title: index
                         <h3>Kavakings</h3>
                         <p>This is a Jekyll/Angular site I created freelance-style for a friend who has just started his kava tea business in China. This version is particular because it is a refactoring of the original site I built (before attending the <a href="{{site.awesomeinc}}">web dev bootcamp</a>).</p>
                         <p>I ran into several issues while coding this site, particularly how <em>Liquid</em> and <em>Angular</em>'s curly-braces tend to confuse one another.</p>
+                        <button class="btn btn-default" 
+                            ng-click="body.hideAllDetails()"
+                            >Close
+                        </button>
                     </div>
                 </div>
             </div>
@@ -239,9 +243,17 @@ title: index
                 >
                     <div class="explanation">
                         <h3>Barkin@pp</h3>
-                        I made this twitter-clone using a Django back-end; the toughest part was understanding how <code>django models</code> work; the <code>django user model</code> gave me trouble as there are plenty of abstractions occuring in the background (or as we called it <em>Django magic</em>). Barkin@pp got me used to building &amp; troubleshooting a well-thought-out back-end.
-                        <h4>UPDATE 11.25.16</h4>
+                        <p>
+                            I made this twitter-clone using a Django back-end; the toughest part was understanding how <code>django models</code> work; the <code>django user model</code> gave me trouble as there are plenty of abstractions occuring in the background (or as we called it <em>Django magic</em>). Barkin@pp got me used to building &amp; troubleshooting a well-thought-out back-end.
+                        </p>
+                        <p>
+                            UPDATE 11.25.16<br />
                             Fixed the overall site <em>look</em>; added some functionality to the navigation.
+                        </p>
+                        <button class="btn btn-default" 
+                            ng-click="body.hideAllDetails()"
+                        >Close
+                        </button>
                     </div>
                 </div>
             </div>
@@ -345,18 +357,25 @@ title: index
             <div class="col-xs-1 col-sm-2"></div>
         </div> <!-- row end -->
 
-<div ng-show="body.dotheangle">
-    <div class="row">
-        <div class="col-xs-8 col-xs-offset-2 explanation-bg"
-            ng-show="body.details"
-        >
-            <div class="explanation">
-                <h3>Do the Angle</h3>
-                A to-do list made with Angular; this simple app relies on <code>ng-show</code> and ternary functions - which are great for smaller functionalities. I am currently delving into <em>UI-router</em> for bigger projects which need to be split into <em>components</em>.
+<!-- DotheAngle DETAILS -->
+        <div ng-show="body.dotheangle">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 explanation-bg"
+                    ng-show="body.details"
+                >
+                    <div class="explanation">
+                        <h3>Do the Angle</h3>
+                        <p>
+                            A to-do list made with Angular; this simple app relies on <code>ng-show</code> and ternary functions - which are great for smaller functionalities. I am currently delving into <em>UI-router</em> for bigger projects which need to be split into <em>components</em>.
+                        </p>
+                        <button class="btn btn-default" 
+                            ng-click="body.hideAllDetails()"
+                        >Close
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
 <!-- GROCERY LIST -->
         <div class="row">
@@ -460,19 +479,25 @@ title: index
             <div class="col-xs-1 col-sm-2"></div>
         </div> <!-- row end -->
 
-
-<div ng-show="body.grocerylist">
-    <div class="row">
-        <div class="col-xs-8 col-xs-offset-2 explanation-bg"
-            ng-show="body.details"
-        >
-            <div class="explanation">
-                <h3>Grocery List</h3>
-                An improvement on the angular to-do list, this app persists data! The goal was to have a usable app which did not require page refreshing. I have actually used this one off the cuff for a quick, online to-do list.
+<!-- Grocerylist DETAILS -->
+        <div ng-show="body.grocerylist">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 explanation-bg"
+                    ng-show="body.details"
+                >
+                    <div class="explanation">
+                        <h3>Grocery List</h3>
+                        <p>
+                            An improvement on the angular to-do list, this app persists data! The goal was to have a usable app which did not require page refreshing. I have actually used this one off the cuff for a quick, online to-do list.
+                        </p>
+                        <button class="btn btn-default" 
+                            ng-click="body.hideAllDetails()"
+                        >Close
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
 <!-- DATE BY HATE -->
         <div class="row">
@@ -578,23 +603,31 @@ title: index
 </div> <!-- dp row -->
 <p></p>
 
-<!-- EXPLANATION of projects-->
-<!-- NEEDS change from ng-show to ng-include, separate explanations into html pages -->
-
+<!-- DatebyHate DETAILS -->
 <div ng-show="body.datebyhate">
     <div class="row">
         <div class="col-xs-8 col-xs-offset-2 explanation-bg"
             ng-show="body.details"
         >
             <div class="explanation">
-                <h3>Date-by-Hate</h3>
-                DBH was my final project at the Bootcamp; it's really a fun idea - match people by movies they hate! <br />
-                <h4>UPDATE 11.22.16</h4>
-                    Fixed the issue! Turns out the problem was how I was retrieving a media file via <code>http</code>; I simply hard-coded the file. <em>Boom</em>!<br />
-                <div class="solved">
-                <h4>ISSUE 11.16.16</h4>
+                <h3>Date-by-Hate<br />
+                    <small>
+                        DBH was my final project at the Bootcamp; it's really a fun idea - match people by movies they hate!
+                    </small>
+                </h3>
+                <p>
+                    UPDATE 11.22.16<br />
+                    Fixed the issue! Turns out the problem was how I was retrieving a media file via <code>http</code>; I simply hard-coded the file. <em>Boom</em>!
+                </p>
+
+                <p>
+                    ISSUE 11.16.16<br />
                     I'm having issues with <code>cross-domain requests</code>; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
-                </div>
+                </p>
+                <button class="btn btn-default" 
+                    ng-click="body.hideAllDetails()"
+                >Close
+                </button>
             </div>
         </div>
     </div>

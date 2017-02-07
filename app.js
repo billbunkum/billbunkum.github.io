@@ -23,6 +23,11 @@ function RootController() {
         ctrl.datebyhate = false;
     }
 
+    function hideAllDetails() {
+        showDetails();
+        ctrl.details = false;
+    }
+
 // controller functions
     function getDetailsKavakings() {
         showDetails();
@@ -51,6 +56,7 @@ function RootController() {
 
 // defined controller functions
     ctrl.showDetails = showDetails;
+    ctrl.hideAllDetails = hideAllDetails;
     ctrl.getDetailsKavakings = getDetailsKavakings;
     ctrl.getDetailsBarkinApp = getDetailsBarkinApp;
     ctrl.getDetailsDoTheAngle = getDetailsDoTheAngle;
