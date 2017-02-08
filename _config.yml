@@ -1,6 +1,4 @@
 url: /favicon.ico
-static_files: media/img/favicon.ico
-upload: media/img/favicon.ico
 include: [_media]
 app: /app.js
 
@@ -14,9 +12,12 @@ rando-blog: http://billbunkum.blogspot.com
 trello: https://trello.com/billbunkum
 selected-works-wordpress: https://willhurstartportfolio.wordpress.com/selected-works-art-portfolio
 
+media-prod: https://billbunkum.github.io/_media/
+
 kavakings-splash: /kavakings_splash.png
 dreadlore-image: /dreadlore-shirt.jpg
 barkinapp-image: /barkinapp-splash.png
+
 kavakings-img-root: http://kavakings.com/image_main/
 trebuchet: https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fputdowntheurinalcake.com%2Fwp-content%2Fuploads%2F2012%2F04%2FTrebuchet.jpg&f=1
 
