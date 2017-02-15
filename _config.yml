@@ -1,8 +1,9 @@
+#set up file structure and basic site
 url: /favicon.ico
 include: [_media]
 app: /app.js
-
 title: Bill Bunkum
+#nav links
 github: https://github.com/billbunkum
 stack-over-flow: http://stackoverflow.com/users/6580955/billbunkum 
 fb: https://www.facebook.com/williamrichardhurst
@@ -12,38 +13,48 @@ rando-blog: http://billbunkum.blogspot.com
 trello: https://trello.com/billbunkum
 selected-works-wordpress: https://willhurstartportfolio.wordpress.com/selected-works-art-portfolio
 
+#production image path w/o file name: use as {{site.media-prod}}<file-name>
 media-prod: https://billbunkum.github.io/_media/
 
+#images: 'splash' used in modal
+dreadLore-image: _media/dreadlore_tshirt_transparent.png
+dreadLore-splash: _media/dreadLore_screenshot.png
 kavakings-splash: _media/kavakings_splash.png
-dreadlore-image: _media/dreadlore-shirt.jpg
+kavakings-image: _media/waveLogo_transparent_blue.png
 barkinapp-image: _media/barkinapp-splash.png
+dreadlore-image: _media/dreadlore-shirt.jpg
 
+#offsite image links
 kavakings-img-root: http://kavakings.com/image_main/
 trebuchet: https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fputdowntheurinalcake.com%2Fwp-content%2Fuploads%2F2012%2F04%2FTrebuchet.jpg&f=1
 
+#site map
 home-page: /index.html
 about-page: /about.html
 bootcamp-blog: /blog.html
-
 contact: /contact.html
 formspree-email: https://formspree.io/william.richard.hurst@gmail.com
 e-mail: william.richard.hurst@gmail.com
 
+#blog stuffs
 projects-list: /2016/10/18/projectsList.html
 obstacles: /2016/11/22/obstacles.html
-
+#blog links
 awesomeinc: https://www.awesomeinc.org/
 dev-blog-chalkley: http://blog.teamtreehouse.com/land-a-job-in-development
 dev-blog-elsh: https://www.quora.com/How-do-I-transform-myself-from-an-average-programmer-with-a-CS-degree-to-one-of-the-best-programmers-in-ten-years
 worthless-blog: http://www.wikihow.com/Get-a-Software-Development-Job
 other-worthless-blog: http://www.popsugar.com/tech/How-Get-Web-Developer-Job-23116292
 
+#deploy absolute links
 kavakings-deploy: https://kavakings.github.io/
+dreadLore-deploy: http://dreadlore.com
 barkinapp-deploy: https://evening-fortress-43547.herokuapp.com/
 dotheangle-deploy: https://billbunkum.github.io/do-the-angle/
 grocery-deploy: https://grocerybootylist.herokuapp.com/
 datebyhate-deploy: https://datebyhate.herokuapp.com/accounts/login/?next=/
 
+#more blog links
 blog-2017-01-11-scrum: https://en.wikipedia.org/wiki/Scrum_(software_development)
 blog-2017-01-11-SAFe: https://en.wikipedia.org/wiki/Scaled_Agile_Framework
 blog-2017-01-11-extreme: https://en.wikipedia.org/wiki/Extreme_Programming

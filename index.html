@@ -9,23 +9,12 @@ title: index
             <small>Personal projects</small>
         </h2>
         <div class="row">
-        <!--     <div class="col-xs-8-offset-1 col-md-6">
-                <a href="http://kavakings.com"
-                    class="thumbnail"
-                >ORIGINAL
-                    <img ng-src="{{site.kavakings-img-root}}waveLogo_transparent_white.png" 
-                        alt="kavakings" 
-                        title="kavakings Official site" 
-                        class="img-circle"
-                    />
-                </a>
-            </div> -->
             <div class="col-xs-1 col-sm-2"></div>
             <div class="col-xs-10 col-md-8">
                 <a href="https://kavakings.github.io/"
                     class="thumbnail"
                 >REBUILD
-                    <img ng-src="{{site.kavakings-img-root}}waveLogo_transparent_blue.png"
+                    <img ng-src="{{site.kavakings-image}}"
                         alt="kavakings rebuild"
                         title="kavakings rebuild"
                         class="img-circle dp-thumbs"
@@ -86,7 +75,7 @@ title: index
                             </div>
                         </div>
                     </div> <!-- modal END -->
-<!-- barkin@pp caret -->
+<!-- kavakings caret -->
                     <button type="button" 
                         class="btn  btn-success dropdown-toggle" 
                         data-toggle="dropdown" 
@@ -137,6 +126,119 @@ title: index
             </div>
         </div>
 
+<!-- DreadLore basic -->
+                <a href="{{site.dreadLore-deploy}}"
+                    class="thumbnail"
+                >
+                    <img ng-src="{{site.dreadLore-image}}"
+                        alt="DreadLore Official"
+                        title="DreadLore Official"
+                        class="img-circle dp-thumbs"
+                    />
+                </a>
+
+                <div class="btn-group">
+                    <button type="button"
+                        class="btn btn-success"
+                        data-toggle="modal"
+                        data-target="#dreadLore-modal"
+                    >DreadLore
+                    <i class="fa fa-level-up" aria-hidden="true"></i>
+                    </button>
+<!-- DreadLore modal -->
+                    <div class="modal fade"
+                        id="dreadLore-modal"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-labelledby="dreadLore-label"
+                    >
+                        <div class="modal-dialog modal-lg"
+                            role="document"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button"
+                                        class="close"
+                                        data-dismiss="modal"
+                                        aria-label="Close"
+                                    >
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title"
+                                        id="dreadLore-label"
+                                    >DreadLore Preview
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-xs-2"></div>
+                                        <div class="col-xs-8">
+                                            <img src="{{site.dreadLore-splash}}"
+                                                title="preview"
+                                                class="modal-thumbs"
+                                            />
+                                        </div>
+                                        <div class="col-xs-2"></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button"
+                                        class="btn btn-default"
+                                        data-dismiss="modal"
+                                    >Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- modal END -->
+<!-- DreadLore caret -->
+                    <button type="button" 
+                        class="btn  btn-success dropdown-toggle" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                    >
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button> 
+                    <ul class="dropdown-menu">
+                        <li 
+                            ng-click="body.getDetailsDreadLore()"
+                        >
+                            <a href=""
+                            >Details
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="{{site.dreadLore-deploy}}" 
+                                title="my twitter clone"
+                            >Check it out!
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!-- btn group -->
+            </div>
+            <div class="col-xs-1 col-sm-2"></div>
+        </div> <!-- row END -->
+
+<!-- Kavakings DETAILS -->
+        <div ng-show="body.dreadLore">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 explanation-bg"
+                    ng-show="body.details"
+                >
+                    <div class="explanation">
+                        <h3>DreadLore</h3>
+                        <p></p>
+                        <button class="btn btn-default" 
+                            ng-click="body.hideAllDetails()"
+                            >Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="row">
 <!-- BARKIN@PP -->

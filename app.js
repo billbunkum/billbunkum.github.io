@@ -13,10 +13,12 @@ function RootController() {
     ctrl.grocerylist = false;
     ctrl.datebyhate = false;
     ctrl.kavakings = false;
+    ctrl.dreadlore = false;
 
     function showDetails() {
         ctrl.details = true;
         ctrl.kavakings = false;
+        ctrl.dreadlore = false;
         ctrl.barkinapp = false;
         ctrl.dotheangle = false;
         ctrl.grocerylist = false;
@@ -32,6 +34,11 @@ function RootController() {
     function getDetailsKavakings() {
         showDetails();
         ctrl.kavakings = true;
+    }
+
+    function getDetailsDreadLore() {
+        showDetails();
+        ctrl.dreadLore = true;
     }
 
     function getDetailsBarkinApp() {
@@ -58,6 +65,7 @@ function RootController() {
     ctrl.showDetails = showDetails;
     ctrl.hideAllDetails = hideAllDetails;
     ctrl.getDetailsKavakings = getDetailsKavakings;
+    ctrl.getDetailsDreadLore = getDetailsDreadLore;
     ctrl.getDetailsBarkinApp = getDetailsBarkinApp;
     ctrl.getDetailsDoTheAngle = getDetailsDoTheAngle;
     ctrl.getDetailsGroceryList = getDetailsGroceryList;
