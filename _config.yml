@@ -28,6 +28,13 @@ dreadlore-image: _media/dreadlore-shirt.jpg
 kavakings-img-root: http://kavakings.com/image_main/
 trebuchet: https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fputdowntheurinalcake.com%2Fwp-content%2Fuploads%2F2012%2F04%2FTrebuchet.jpg&f=1
 
+#details links to offsite
+dragons-link: http://dnd.wizards.com/
+numenera-link:  http://www.numenera.com/
+materialize-link: http://materializecss.com/grid.html
+flask-tutorial-link: http://flask.pocoo.org/docs/0.12/tutorial/setup/#tutorial-setup
+flask-link: http://flask.pocoo.org/
+
 #site map
 home-page: /index.html
 about-page: /about.html
