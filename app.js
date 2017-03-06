@@ -13,12 +13,12 @@ function RootController() {
     ctrl.grocerylist = false;
     ctrl.datebyhate = false;
     ctrl.kavakings = false;
-    ctrl.dreadlore = false;
+    ctrl.dreadLore = false;
 
     function showDetails() {
         ctrl.details = true;
         ctrl.kavakings = false;
-        ctrl.dreadlore = false;
+        ctrl.dreadLore = false;
         ctrl.barkinapp = false;
         ctrl.dotheangle = false;
         ctrl.grocerylist = false;
