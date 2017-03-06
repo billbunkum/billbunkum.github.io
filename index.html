@@ -8,152 +8,31 @@ title: index
         <h2>Deployed Projects<br />
             <small>Patience, dearies! Some sites take a sec to load as their virtual servers must 'spin up'.</small>
         </h2>
-        <div class="row">
-            <div class="col-xs-1 col-sm-2"></div>
-            <div class="col-xs-10 col-md-8">
-                <a href="https://kavakings.github.io/"
-                    class="thumbnail"
-                >REBUILD
-                    <img ng-src="{{site.kavakings-image}}"
-                        alt="kavakings rebuild"
-                        title="kavakings rebuild"
-                        class="img-circle dp-thumbs"
-                    />
-                </a>
-
-                <div class="btn-group">
-                    <button type="button"
-                        class="btn btn-success"
-                        data-toggle="modal"
-                        data-target="#kavakings-modal"
-                    >Kavakings
-                    <i class="fa fa-level-up" aria-hidden="true"></i>
-                    </button>
-<!-- kavakings modal -->
-                    <div class="modal fade"
-                        id="kavakings-modal"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="kavakings-label"
-                    >
-                        <div class="modal-dialog modal-lg"
-                            role="document"
-                        >
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button"
-                                        class="close"
-                                        data-dismiss="modal"
-                                        aria-label="Close"
-                                    >
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <h4 class="modal-title"
-                                        id="kavakings-label"
-                                    >Kavakings Preview
-                                    </h4>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="row">
-                                        <div class="col-xs-2"></div>
-                                        <div class="col-xs-8">
-                                            <img src="{{site.kavakings-splash}}"
-                                                title="preview"
-                                                class="modal-thumbs"
-                                            />
-                                        </div>
-                                        <div class="col-xs-2"></div>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button"
-                                        class="btn btn-default"
-                                        data-dismiss="modal"
-                                    >Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- modal END -->
-<!-- kavakings caret -->
-                    <button type="button" 
-                        class="btn  btn-success dropdown-toggle" 
-                        data-toggle="dropdown" 
-                        aria-haspopup="true" 
-                        aria-expanded="false"
-                    >
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                    </button> 
-                    <ul class="dropdown-menu">
-                        <li 
-                            ng-click="body.getDetailsKavakings()"
-                        >
-                            <a href=""
-                            >Details
-                            </a>
-                        </li>
-                        <li>
-                        <!-- https://evening-fortress-43547.herokuapp.com/ -->
-                            <a 
-                                href="{{site.kavakings-deploy}}" 
-                                title="my twitter clone"
-                            >Check it out!
-                            </a>
-                        </li>
-                    </ul>
-                </div> <!-- btn group -->
-            </div>
-            <div class="col-xs-1 col-sm-2"></div>
-        </div> <!-- row END -->
-
-<!-- Kavakings DETAILS -->
-        <div ng-show="body.kavakings">
-            <div class="row">
-                <div class="col-xs-8 col-xs-offset-2 explanation-bg"
-                    ng-show="body.details"
-                >
-                    <div class="explanation">
-                        <h3>Kavakings</h3>
-                        <p>This is a Jekyll/Angular site I created freelance-style for a friend who has just started his kava tea business in China. This version is particular because it is a refactoring of the original site I built (before attending the <a href="{{site.awesomeinc}}">web dev bootcamp</a>).</p>
-                        <p>I ran into several issues while coding this site, particularly how <em>Liquid</em> and <em>Angular</em>'s curly-braces tend to confuse one another.</p>
-                        <button class="btn btn-default" 
-                            ng-click="body.hideAllDetails()"
-                            >Close
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-<!-- DreadLore basic -->
+<!-- DATE BY HATE begin -->
         <div class="row">
             <div class="col-xs-1 col-sm-2"></div>
             <div class="col-xs-10 col-sm-8">
-                <a href="{{site.dreadLore-deploy}}"
+                <a href="{{site.datebyhate-deploy}}" 
                     class="thumbnail"
                 >
-                    <img ng-src="{{site.dreadLore-image}}"
-                        alt="DreadLore Official"
-                        title="DreadLore Official"
+                    <img ng-src="{{site.media-prod}}penta_star.png" 
                         class="img-circle dp-thumbs"
                     />
                 </a>
-
                 <div class="btn-group">
                     <button type="button"
-                        class="btn btn-success"
+                        class="btn btn-success "
+                        data-target="#date-by-hate-modal"
                         data-toggle="modal"
-                        data-target="#dreadLore-modal"
-                    >DreadLore
+                    >Date by Hate
                     <i class="fa fa-level-up" aria-hidden="true"></i>
                     </button>
-<!-- DreadLore modal -->
+<!-- date by hate modal -->
                     <div class="modal fade"
-                        id="dreadLore-modal"
+                        id="date-by-hate-modal"
                         tabindex="-1"
                         role="dialog"
-                        aria-labelledby="dreadLore-label"
+                        aria-labelledby="date-by-hate-label"
                     >
                         <div class="modal-dialog modal-lg"
                             role="document"
@@ -168,18 +47,149 @@ title: index
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                     <h4 class="modal-title"
-                                        id="dreadLore-label"
-                                    >DreadLore Preview
+                                        id="date-by-hate-title"
+                                    >Date by Hate Preview
                                     </h4>
                                 </div>
                                 <div class="modal-body">
                                     <div class="row">
                                         <div class="col-xs-2"></div>
                                         <div class="col-xs-8">
-                                            <img src="{{site.dreadLore-splash}}"
-                                                title="preview"
+                                            <img ng-src="{{site.media-prod}}date-by-hate-others-angst.png" 
+                                                title="date by hate preview"
                                                 class="modal-thumbs"
-                                            />
+                                            >
+                                        </div>
+                                        <div class="col-xs-2"></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button"
+                                        class="btn btn-default"
+                                        data-dismiss="modal"
+                                    >
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- end modal -->
+<!-- date by hate caret -->
+                    <button type="button" 
+                        class="btn  btn-success dropdown-toggle" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                    >
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li 
+                            ng-click="body.getDetailsDateByHate()"
+                        >
+                            <a href=""
+                            >Details
+                            </a>
+                        </li>
+                        <li>
+                        <!-- https://datebyhate.herokuapp.com/accounts/login/?next=/ -->
+                            <a 
+                                href="{{site.datebyhate-deploy}}" 
+                                title="django + djangoREST + angular"
+                            >Check it out!
+                            </a>
+                        </li>
+                    </ul>
+<!-- btn-group end -->
+                </div>
+<!-- col end -->
+            </div>
+            <div class="col-xs-1 col-sm-2"></div>
+        </div> <!-- row end -->
+<!-- DatebyHate DETAILS -->
+        <div ng-show="body.datebyhate">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 explanation-bg"
+                    ng-show="body.details"
+                >
+                    <div class="explanation">
+                        <h3>Date-by-Hate<br />
+                            <small>
+                                DBH was my final project at the Bootcamp; it's really a fun idea - match people by movies they hate!
+                            </small>
+                        </h3>
+                        <p>
+                            UPDATE 11.22.16<br />
+                            Fixed the issue! Turns out the problem was how I was retrieving a media file via <code>http</code>; I simply hard-coded the file. <em>Boom</em>!
+                        </p>
+
+                        <p>
+                            ISSUE 11.16.16<br />
+                            I'm having issues with <code>cross-domain requests</code>; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
+                        </p>
+                        <button class="btn btn-default" 
+                            ng-click="body.hideAllDetails()"
+                        >Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Date by Hate end -->
+
+<!-- DO THE ANGLE begin -->
+        <div class="row">
+            <div class="col-xs-1 col-sm-2"></div>
+            <div class="col-xs-10 col-sm-8">
+                <a href="{{site.dotheangle-deploy}}" 
+                    class="thumbnail"
+                >
+                    <img ng-src="{{site.media-prod}}hcube.gif" 
+                        class="img-circle dp-thumbs"
+                    />
+                </a>
+                <div class="btn-group">
+                    <button type="button"
+                        class="btn btn-success "
+                        data-toggle="modal"
+                        data-target="#do-the-angle-modal"
+                    >Do the Angle
+                    <i class="fa fa-level-up" aria-hidden="true"></i>
+                    </button>
+<!-- do the angle modal -->
+                    <div class="modal fade"
+                        id="do-the-angle-modal"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-labelledby="do-the-angle-label"
+                    >
+                        <div class="modal-dialog modal-lg"
+                            role="document"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button"
+                                        class="close"
+                                        data-dismiss="modal"
+                                        aria-label="Close"
+                                    >
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title"
+                                        id="do-the-angle-label"
+                                    >Do the Angle Preview
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-xs-2"></div>
+                                        <div class="col-xs-8">
+                                            <img src="{{site.media-prod}}do-the-angle-preview.png"
+                                                title="do the angle preview"
+                                                class="modal-thumbs"
+                                            >
                                         </div>
                                         <div class="col-xs-2"></div>
                                     </div>
@@ -193,8 +203,9 @@ title: index
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- modal END -->
-<!-- DreadLore caret -->
+                    </div>
+<!-- modal END -->
+<!-- do the angle caret -->
                     <button type="button" 
                         class="btn  btn-success dropdown-toggle" 
                         data-toggle="dropdown" 
@@ -203,54 +214,52 @@ title: index
                     >
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>
-                    </button> 
+                    </button>
                     <ul class="dropdown-menu">
                         <li 
-                            ng-click="body.getDetailsDreadLore()"
+                            ng-click="body.getDetailsDoTheAngle()"
                         >
                             <a href=""
                             >Details
                             </a>
                         </li>
                         <li>
+                        <!-- https://billbunkum.github.io/do-the-angle/ -->
                             <a 
-                                href="{{site.dreadLore-deploy}}" 
-                                title="my twitter clone"
+                                href="{{site.dotheangle-deploy}}"
+                                title="angular to-do list"
                             >Check it out!
                             </a>
                         </li>
                     </ul>
-                </div> <!-- btn group -->
-            </div>
+                </div>
+            </div> <!-- col END -->
             <div class="col-xs-1 col-sm-2"></div>
-        </div> <!-- row END -->
+        </div> <!-- row end -->
 
-<!-- Kavakings DETAILS -->
-        <div ng-show="body.dreadLore">
+<!-- DotheAngle DETAILS -->
+        <div ng-show="body.dotheangle">
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2 explanation-bg"
                     ng-show="body.details"
                 >
                     <div class="explanation">
-                        <h3>DreadLore</h3>
+                        <h3>Do the Angle</h3>
                         <p>
-                            DreadLore 'DL' is a tabletop RPG which the co-founder of Adventure Kings LLC and myself are creating; the game can be thought of as a 'pen &amp; ink' RPG similar to <a href="{{site.dragons-link}}">Dungeons &amp; Dragons</a>, <a href="{{site.numenera-link}}">Numenera</a>, etc.I am building this static website to bolster my web development skills as well as to create a much-needed 'official' website for our business venture. 
-                        </p>
-                        <h4>Versions</h4>
-                        <p>
-                            As I learned in the 'bootcamp', it's more important to have a working, unfinished (even ugly) product than to have no product at all. Thus, for the time being, I'll be deploying a simple site which uses <a href="{{site.materialize-link}}">Materialze</a> instead of Bootstrap - I might as well test out something new. In the meantime, I'm working on a <a href="{{site.flask-tutorial-link}}">Flask tutorial</a> on the side; the eventual DL site will most likely be built off <a href="{{site.flask-link}}">Flask</a>.
+                            A to-do list made with Angular; this simple app relies on <code>ng-show</code> and ternary functions - which are great for smaller functionalities. I am currently delving into <em>UI-router</em> for bigger projects which need to be split into <em>components</em>.
                         </p>
                         <button class="btn btn-default" 
                             ng-click="body.hideAllDetails()"
-                            >Close
+                        >Close
                         </button>
                     </div>
                 </div>
             </div>
         </div>
+<!-- DotheAngle end -->
 
+<!-- BARKIN@PP begin -->
         <div class="row">
-<!-- BARKIN@PP -->
             <div class="col-xs-1 col-sm-2"></div>
             <div class="col-xs-10 col-sm-8">
                 <a href="{{site.barkinapp-deploy}}" 
@@ -369,126 +378,8 @@ title: index
                 </div>
             </div>
         </div>
-
-<!-- DO THE ANGLE -->
-        <div class="row">
-            <div class="col-xs-1 col-sm-2"></div>
-            <div class="col-xs-10 col-sm-8">
-                <a href="{{site.dotheangle-deploy}}" 
-                    class="thumbnail"
-                >
-                    <img ng-src="{{site.media-prod}}hcube.gif" 
-                        class="img-circle dp-thumbs"
-                    />
-                </a>
-                <div class="btn-group">
-                    <button type="button"
-                        class="btn btn-success "
-                        data-toggle="modal"
-                        data-target="#do-the-angle-modal"
-                    >Do the Angle
-                    <i class="fa fa-level-up" aria-hidden="true"></i>
-                    </button>
-<!-- do the angle modal -->
-                    <div class="modal fade"
-                        id="do-the-angle-modal"
-                        tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="do-the-angle-label"
-                    >
-                        <div class="modal-dialog modal-lg"
-                            role="document"
-                        >
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button"
-                                        class="close"
-                                        data-dismiss="modal"
-                                        aria-label="Close"
-                                    >
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <h4 class="modal-title"
-                                        id="do-the-angle-label"
-                                    >Do the Angle Preview
-                                    </h4>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="row">
-                                        <div class="col-xs-2"></div>
-                                        <div class="col-xs-8">
-                                            <img src="{{site.media-prod}}do-the-angle-preview.png"
-                                                title="do the angle preview"
-                                                class="modal-thumbs"
-                                            >
-                                        </div>
-                                        <div class="col-xs-2"></div>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button"
-                                        class="btn btn-default"
-                                        data-dismiss="modal"
-                                    >Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-<!-- modal END -->
-<!-- do the angle caret -->
-                    <button type="button" 
-                        class="btn  btn-success dropdown-toggle" 
-                        data-toggle="dropdown" 
-                        aria-haspopup="true" 
-                        aria-expanded="false"
-                    >
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li 
-                            ng-click="body.getDetailsDoTheAngle()"
-                        >
-                            <a href=""
-                            >Details
-                            </a>
-                        </li>
-                        <li>
-                        <!-- https://billbunkum.github.io/do-the-angle/ -->
-                            <a 
-                                href="{{site.dotheangle-deploy}}"
-                                title="angular to-do list"
-                            >Check it out!
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div> <!-- col END -->
-            <div class="col-xs-1 col-sm-2"></div>
-        </div> <!-- row end -->
-
-<!-- DotheAngle DETAILS -->
-        <div ng-show="body.dotheangle">
-            <div class="row">
-                <div class="col-xs-8 col-xs-offset-2 explanation-bg"
-                    ng-show="body.details"
-                >
-                    <div class="explanation">
-                        <h3>Do the Angle</h3>
-                        <p>
-                            A to-do list made with Angular; this simple app relies on <code>ng-show</code> and ternary functions - which are great for smaller functionalities. I am currently delving into <em>UI-router</em> for bigger projects which need to be split into <em>components</em>.
-                        </p>
-                        <button class="btn btn-default" 
-                            ng-click="body.hideAllDetails()"
-                        >Close
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-<!-- GROCERY LIST -->
+<!-- Barkin@pp end -->
+<!-- GROCERY LIST begin -->
         <div class="row">
             <div class="col-xs-1 col-sm-2"></div>
             <div class="col-xs-10 col-sm-8">
@@ -609,32 +500,36 @@ title: index
                 </div>
             </div>
         </div>
+<!-- Grocerylist end -->
 
-<!-- DATE BY HATE -->
+<!-- Kavakings begin -->
         <div class="row">
             <div class="col-xs-1 col-sm-2"></div>
-            <div class="col-xs-10 col-sm-8">
-                <a href="{{site.datebyhate-deploy}}" 
+            <div class="col-xs-10 col-md-8">
+                <a href="https://kavakings.github.io/"
                     class="thumbnail"
-                >
-                    <img ng-src="{{site.media-prod}}penta_star.png" 
+                >REBUILD
+                    <img ng-src="{{site.kavakings-image}}"
+                        alt="kavakings rebuild"
+                        title="kavakings rebuild"
                         class="img-circle dp-thumbs"
                     />
                 </a>
+
                 <div class="btn-group">
                     <button type="button"
-                        class="btn btn-success "
-                        data-target="#date-by-hate-modal"
+                        class="btn btn-success"
                         data-toggle="modal"
-                    >Date by Hate
+                        data-target="#kavakings-modal"
+                    >Kavakings
                     <i class="fa fa-level-up" aria-hidden="true"></i>
                     </button>
-<!-- date by hate modal -->
+<!-- kavakings modal -->
                     <div class="modal fade"
-                        id="date-by-hate-modal"
+                        id="kavakings-modal"
                         tabindex="-1"
                         role="dialog"
-                        aria-labelledby="date-by-hate-label"
+                        aria-labelledby="kavakings-label"
                     >
                         <div class="modal-dialog modal-lg"
                             role="document"
@@ -649,18 +544,18 @@ title: index
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                     <h4 class="modal-title"
-                                        id="date-by-hate-title"
-                                    >Date by Hate Preview
+                                        id="kavakings-label"
+                                    >Kavakings Preview
                                     </h4>
                                 </div>
                                 <div class="modal-body">
                                     <div class="row">
                                         <div class="col-xs-2"></div>
                                         <div class="col-xs-8">
-                                            <img ng-src="{{site.media-prod}}date-by-hate-others-angst.png" 
-                                                title="date by hate preview"
+                                            <img src="{{site.kavakings-splash}}"
+                                                title="preview"
                                                 class="modal-thumbs"
-                                            >
+                                            />
                                         </div>
                                         <div class="col-xs-2"></div>
                                     </div>
@@ -669,15 +564,13 @@ title: index
                                     <button type="button"
                                         class="btn btn-default"
                                         data-dismiss="modal"
-                                    >
-                                        Close
+                                    >Close
                                     </button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-<!-- end modal -->
-<!-- date by hate caret -->
+                    </div> <!-- modal END -->
+<!-- kavakings caret -->
                     <button type="button" 
                         class="btn  btn-success dropdown-toggle" 
                         data-toggle="dropdown" 
@@ -686,63 +579,176 @@ title: index
                     >
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>
-                    </button>
+                    </button> 
                     <ul class="dropdown-menu">
                         <li 
-                            ng-click="body.getDetailsDateByHate()"
+                            ng-click="body.getDetailsKavakings()"
                         >
                             <a href=""
                             >Details
                             </a>
                         </li>
                         <li>
-                        <!-- https://datebyhate.herokuapp.com/accounts/login/?next=/ -->
+                        <!-- https://evening-fortress-43547.herokuapp.com/ -->
                             <a 
-                                href="{{site.datebyhate-deploy}}" 
-                                title="django + djangoREST + angular"
+                                href="{{site.kavakings-deploy}}" 
+                                title="my twitter clone"
                             >Check it out!
                             </a>
                         </li>
                     </ul>
-<!-- btn-group end -->
-                </div>
-<!-- col end -->
+                </div> <!-- btn group -->
             </div>
             <div class="col-xs-1 col-sm-2"></div>
-        </div> <!-- row end -->
-    </div> <!-- dp col -->
-</div> <!-- dp row -->
-<p></p>
+        </div> <!-- row END -->
 
-<!-- DatebyHate DETAILS -->
-<div ng-show="body.datebyhate">
-    <div class="row">
-        <div class="col-xs-8 col-xs-offset-2 explanation-bg"
-            ng-show="body.details"
-        >
-            <div class="explanation">
-                <h3>Date-by-Hate<br />
-                    <small>
-                        DBH was my final project at the Bootcamp; it's really a fun idea - match people by movies they hate!
-                    </small>
-                </h3>
-                <p>
-                    UPDATE 11.22.16<br />
-                    Fixed the issue! Turns out the problem was how I was retrieving a media file via <code>http</code>; I simply hard-coded the file. <em>Boom</em>!
-                </p>
-
-                <p>
-                    ISSUE 11.16.16<br />
-                    I'm having issues with <code>cross-domain requests</code>; DBH retrieves info from a foreign API which does not use https (for some reason). This is another 'deployment' obstacle I have run into suddenly; it will be interesting solving it. More @ <a href="{{site.obstacles}}" alt="blog post">bootcamp-blog</a>.
-                </p>
-                <button class="btn btn-default" 
-                    ng-click="body.hideAllDetails()"
-                >Close
-                </button>
+<!-- Kavakings DETAILS -->
+        <div ng-show="body.kavakings">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 explanation-bg"
+                    ng-show="body.details"
+                >
+                    <div class="explanation">
+                        <h3>Kavakings</h3>
+                        <p>This is a Jekyll/Angular site I created freelance-style for a friend who has just started his kava tea business in China. This version is particular because it is a refactoring of the original site I built (before attending the <a href="{{site.awesomeinc}}">web dev bootcamp</a>).</p>
+                        <p>I ran into several issues while coding this site, particularly how <em>Liquid</em> and <em>Angular</em>'s curly-braces tend to confuse one another.</p>
+                        <button class="btn btn-default" 
+                            ng-click="body.hideAllDetails()"
+                            >Close
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+<!-- Kavakings end -->
+
+<!-- DreadLore basic start -->
+        <div class="row">
+            <div class="col-xs-1 col-sm-2"></div>
+            <div class="col-xs-10 col-sm-8">
+                <a href="{{site.dreadLore-deploy}}"
+                    class="thumbnail"
+                >
+                    <img ng-src="{{site.dreadLore-image}}"
+                        alt="DreadLore Official"
+                        title="DreadLore Official"
+                        class="img-circle dp-thumbs"
+                    />
+                </a>
+
+                <div class="btn-group">
+                    <button type="button"
+                        class="btn btn-success"
+                        data-toggle="modal"
+                        data-target="#dreadLore-modal"
+                    >DreadLore
+                    <i class="fa fa-level-up" aria-hidden="true"></i>
+                    </button>
+<!-- DreadLore modal -->
+                    <div class="modal fade"
+                        id="dreadLore-modal"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-labelledby="dreadLore-label"
+                    >
+                        <div class="modal-dialog modal-lg"
+                            role="document"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button"
+                                        class="close"
+                                        data-dismiss="modal"
+                                        aria-label="Close"
+                                    >
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title"
+                                        id="dreadLore-label"
+                                    >DreadLore Preview
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-xs-2"></div>
+                                        <div class="col-xs-8">
+                                            <img src="{{site.dreadLore-splash}}"
+                                                title="preview"
+                                                class="modal-thumbs"
+                                            />
+                                        </div>
+                                        <div class="col-xs-2"></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button"
+                                        class="btn btn-default"
+                                        data-dismiss="modal"
+                                    >Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- modal END -->
+<!-- DreadLore caret -->
+                    <button type="button" 
+                        class="btn  btn-success dropdown-toggle" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false"
+                    >
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button> 
+                    <ul class="dropdown-menu">
+                        <li 
+                            ng-click="body.getDetailsDreadLore()"
+                        >
+                            <a href=""
+                            >Details
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="{{site.dreadLore-deploy}}" 
+                                title="my twitter clone"
+                            >Check it out!
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!-- btn group -->
+            </div>
+            <div class="col-xs-1 col-sm-2"></div>
+        </div> <!-- row END -->
+
+<!-- DreadLore DETAILS -->
+        <div ng-show="body.dreadLore">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 explanation-bg"
+                    ng-show="body.details"
+                >
+                    <div class="explanation">
+                        <h3>DreadLore</h3>
+                        <p>
+                            DreadLore 'DL' is a tabletop RPG which the co-founder of Adventure Kings LLC and myself are creating; the game can be thought of as a 'pen &amp; ink' RPG similar to <a href="{{site.dragons-link}}">Dungeons &amp; Dragons</a>, <a href="{{site.numenera-link}}">Numenera</a>, etc.I am building this static website to bolster my web development skills as well as to create a much-needed 'official' website for our business venture. 
+                        </p>
+                        <h4>Versions</h4>
+                        <p>
+                            As I learned in the 'bootcamp', it's more important to have a working, unfinished (even ugly) product than to have no product at all. Thus, for the time being, I'll be deploying a simple site which uses <a href="{{site.materialize-link}}">Materialze</a> instead of Bootstrap - I might as well test out something new. In the meantime, I'm working on a <a href="{{site.flask-tutorial-link}}">Flask tutorial</a> on the side; the eventual DL site will most likely be built off <a href="{{site.flask-link}}">Flask</a>.
+                        </p>
+                        <button class="btn btn-default" 
+                            ng-click="body.hideAllDetails()"
+                            >Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- DreadLore end -->
+
+    </div> <!-- dp CONTENT col -->
+</div> <!-- dp CONTENT row -->
+<p></p>
 
 <div class="row">
     <div class="col-xs-12">
