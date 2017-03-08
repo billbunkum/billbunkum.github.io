@@ -68,7 +68,7 @@ footer.bottom ul li a {
 
 /* allows bottom of page to not be obscured by footer navbar */
 footer.bottom {
-  padding-top: 120px;
+  padding-top: 10em;
   overflow-wrap: normal;
 }
 
