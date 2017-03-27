@@ -1,0 +1,127 @@
+---
+layout: post
+title: 2017-03-28 The Method of MEAN
+---
+<span class="blob-blurb-text">
+~ M.E.A.N. stands for: Mongo Database, Express.js, AngularJS, Node.js
+</span>
+
+<!-- <div class="container"> -->
+    <h1>A turbulent walk-thru<br />
+        <small>Or, series of stumbles</small>
+    </h1>
+    <p>
+        As always, there's obviously plenty of resources 'out there' - how else did I learn what I learned, right? These next few posts are meant to point the great whomever in a better direction. The biggest problem w/ learning these new tools for me has been whiling away the hours just trying to answer the simplest of questions. For example, what the f*() is Express used for? Or, holy sh*(), what do you mean, I have to download a database?
+    </p>
+    <p>
+        <strong>By the way, all of my examples assume Ubuntu 16.04 LTS.</strong>
+    </p>
+
+    <h2>Mongo is a beast<br />
+        <small>Seriously, I don't know much about it...</small>
+    </h2>
+    <p>
+        Ignorance allowed. MongoDB is not terribly difficult to set up. Everywhere I've been says to do the same thing - just ask the MongoDB people how to set up your sh*().<br />
+        <a href="{{site.mongodb}}">Go Here</a>
+    </p>
+    <p>
+        One more thing, download the <strong>Mongoose library</strong>. It makes things easier to 'interact' with MongoDB. Go figure.<br />
+        <a href="{{site.mongoosejs}}">Mongoose</a>.
+    </p>
+
+    <h2>Starting with the 'E' Express</h2>
+    <p>
+        From what I gather, Express is primarily used to <i>route</i> endpoints. It allows for communication between a database, in this case, Mongo.<br />
+        Of course, they explain themselves best here, <a href="{{site.expressjs}}">Express</a>.
+    </p>
+    <p>
+        By the way, use Express 4.x if you can. There's <i>a lot</i> different between it and Express 3.x. By and large, the difference is that the newer version has very few libraries pre-loaded whereas 3.x has, like, everything built in.<br />
+        <a href="{{site.chris-sevilleja}}">Here's more</a> on all those differences.
+    </p>
+
+    <h2>Express' Directory Layout</h2>
+        <p>
+            You can get your boiler-plate on (I hate that term) by using the 'express-generator'. As with all things, you must <i>also</i> download this b*)*)h. Find out all the details <a href="{{site.express-generator}}">here</a>.<br />
+            For brevity's sake, the global command is: <code> $ npm install express-generator -g</code><br />
+            Don't give me that <i>best practices</i> horsehit, either.
+        </p>
+        <ul>
+            <li>app.js - launches app, imports server files, configure routes, opens db connections, etc.
+            </li>
+            <li>bin/ - container execs. www launches app.js starts Node.js server
+            </li>
+            <li>public/ - .js, .css, static files and templates
+            </li>
+            <li>routes/ - Node controllers and backend code
+            </li>
+            <li>views/ - using .ejs instead of .jade.
+            </li>
+            <li>models/ - contains Mongoose scheme definitions
+            </li>
+        </ul>
+
+    <h3>To get your Environment started<br />
+        <small>so you can actually test stuff</small>
+    </h3>
+        <p>
+            You must, of course, download/setup all the tools.
+        </p>
+        <ul>
+            <li>
+                create a virtual environment w/ <strong>NodeEnv</strong> using: 
+                <p>
+                    <code>$ nodeenv &lt;name of your env&gt;</code>
+                </p>
+            </li>
+            <li>
+                get <strong>mongodb</strong> running or stop it using: 
+                <p>
+                    <code>$ sudo service mongod start/stop</code>
+                </p>
+            </li>
+            <li>
+                If you don't have <strong>npm</strong> installed...what the f*() are you doing? Get that sh*t. Now. Search <i>npm install</i>. I refuse to link it. Boom.
+            </li>
+            <li>
+                If you don't have Node...best get it, too. Be careful, of course, about which <i>version</i> you're getting. Some of these tutorials <strong>require</strong> specific versions. If you're using the Thinkster tutorial, you'll need <code>Node.js v7.2.0</code>.
+            </li>
+            <li>
+                start your <strong>Node server</strong> using:
+                <p>
+                    <code>$ npm start` and listen on port 3000</code>
+                </p>
+            </li>
+            <li>
+                Most of the set-up for how the server runs, throws errors, gets its routes, etc. are in the <code>app.js</code> file included in the main directory - this is assuming you've used express-generator, of course.
+            </li>
+        </ul>
+        <p>
+            Oh, by the way, if your dependencies aren't working, and you're like, "what the hell?", try the following:
+            <ol>
+                <li>
+                    In the CLI, type <code>$ npm install</code> to install whatever is located in your <code>package.json</code>. If you didn't know (I didn't), that's what sets up your entire environment and allows others to work w/ the same versions, libraries, etc. you've used.
+                </li>
+                <li>
+                    Stop and restart your server. You can do this using CTRL + C in the CLI and then <code>$ npm start</code>.
+                </li>
+                <li> 
+                    Re-check that your mongodb is actually running.
+                </li>
+        </p>
+    <h3>Street Cred.<br />
+        <small>Sometimes costs but is worth it</small>
+    </h3>
+        <ul>
+            <li>
+                When it comes down to it, the act of doing tutorials (while sucking) really seems to be the best way to learn this stuff. I was pointed in the direction of  <a href="{{site.thinkster}}">Thinkster</a> - they have several, practical tutorials for learning poplular frameworks.
+            </li>
+            <li>
+                This dude also helped me tons. He's got some seriously good example code. <i>Also</i>, he actually de-mystifies how to fu09c*()ing <code>DELETE</code> things using Mongoose.<br />
+                <a href="{{site.kendrick-coleman}}">Kendrick Coleman</a>
+            </li>
+        </ul>
+
+    <p>
+        Published: 2017-03-28
+    </p>
+<!-- </div> -->
