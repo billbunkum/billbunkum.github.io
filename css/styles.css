@@ -56,6 +56,10 @@ img .img-circle {
   
 }
 
+#nav-collapse > ul > li > a > img {
+  width: 35px;
+}
+
 footer > ul > li > a > img {
   width: 50px;
 }
