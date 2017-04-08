@@ -12,6 +12,8 @@ twitter: https://twitter.com/billbunkum
 rando-blog: http://billbunkum.blogspot.com
 trello: https://trello.com/billbunkum
 selected-works-wordpress: https://willhurstartportfolio.wordpress.com/selected-works-art-portfolio
+bitbucket: https://bitbucket.org/billbunkum/
+codecademy: https://www.codecademy.com/billbunkum
 
 #production image path w/o file name: use as {{site.media-prod}}<file-name>
 media-prod: https://billbunkum.github.io/_media/
