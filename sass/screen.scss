@@ -1,0 +1,195 @@
+/*light red #FFDCD9 */
+/*blue #648287 */
+/*light blue #BAC4C6 */
+/*green #648287*/
+/*super light gray/blue #C0CBCD*/
+/* extra light gray #EAECED*/
+/* dev blog*/
+.center {
+  margin-left: 100px
+}
+
+h1, h2, h3, h4, small {
+  color: #648287;
+  font-family: 'Bitter', serif;
+}
+
+a:link, a:visited, a:active {
+  color: #8b8378;
+  font-weight: bolder;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+/*img.thumbs {
+  width: 10em;
+}*/
+
+.modal-thumbs {
+  width: 100%;
+
+}
+
+img.dp-thumbs {
+  width: 10em;
+}
+
+img .img-circle {
+  margin: auto 0;
+  
+}
+
+#nav-collapse > ul > li > a > img {
+  width: 35px;
+}
+
+#nav-collapse > ul > li > a > img#codecademy-logo {
+  width: 55px;
+}
+
+footer > ul > li > a > img {
+  width: 50px;
+}
+
+footer > ul > li > a > img#codecademy-logo {
+  width: 65px;
+}
+
+footer.bottom ul li a {
+  /*font-size: 18px;*/
+  font-size: 1.4em;
+  clear: both;
+}
+
+/* allows bottom of page to not be obscured by footer navbar */
+footer.bottom {
+  padding-top: 10em;
+  overflow-wrap: normal;
+}
+
+.btn-group {
+  margin-top: 5px;
+}
+
+.jumbotron {
+  padding: 10px 15px;
+  margin: 0px;
+  /*background-image: url("/art_cascade.png");*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background: linear-gradient(160deg, #DCA7A1, #FFFFFF);
+  background-repeat: no-repeat;
+}
+
+a.button-text {
+  color: #ffffff;
+}
+
+li > a.footer-text {
+  color: #ffffff;
+}
+
+.jumbo-image {
+  position: relative;
+  float: none;
+}
+
+.art-cascade {
+  max-width: 225px;
+}
+
+.navbar {
+  background-color: #BAC4C6;
+  margin: 0 auto;
+}
+
+/* index */
+.explanation-bg {
+  /*border color*/
+  background: #000000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C0CBCD), to(#eaeced));
+  padding: 1px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.explanation {
+  /*middle part*/
+  padding: 8px;
+  background: #EAECED;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eaeced), to(#c0cbcd));
+}
+
+.solved {
+  font-size: 18px;
+  color: #648287;
+}
+
+.thumbnail {
+  margin: 5px;
+  background-color: #EAECED;
+  border: solid #000000;
+}
+
+
+/* about page VIDEO */
+.video {
+  margin: 50px;
+}
+
+/* used in Blog posts in _posts */
+.blog-blurb-text {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.signature {
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: grey;
+}
+
+/* intext elements */
+
+.bold {
+  font-weight: bold;
+}
+
+span.cursive {
+  font-style: oblique;
+}
+
+span.latin {
+  font-style: italic;
+}
+
+iframe#about-imbed-youtube {
+  width: 100%;
+  height: 30em;
+  max-width: 32em; 
+  max-height: 10em;
+}
+
+a#kavakings-btn {
+  color: white;
+}
+
