@@ -56,8 +56,20 @@ img .img-circle {
   
 }
 
+#nav-collapse > ul > li > a > img {
+  width: 35px;
+}
+
+#nav-collapse > ul > li > a > img#codecademy-logo {
+  width: 55px;
+}
+
 footer > ul > li > a > img {
   width: 50px;
+}
+
+footer > ul > li > a > img#codecademy-logo {
+  width: 65px;
 }
 
 footer.bottom ul li a {
