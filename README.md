@@ -40,8 +40,11 @@
 + twitter: https://twitter.com/billbunkum 
 + blog: http://billbunkum.blogspot.com 
 
-## Local stuff
+### Local stuff
 * jekyll site w/ outbound links
 * deployed on GitHub Pages @ https://billbunkum.github.io
 + $jekyll serve
 + url localhost:4000
+
+### Compass
++ Use compass to organize CSS/SCSS files

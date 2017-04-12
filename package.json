@@ -1,0 +1,19 @@
+{
+  "name": "billbunkum.github.io",
+  "version": "1.0.0",
+  "description": "online portfolio which showcases current, personal dev projects",
+  "main": "app.js",
+  "dependencies": {
+    "compass": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billbunkum/billbunkum.github.io/"
+  },
+  "author": "billbunkum",
+  "license": "ISC"
+}
