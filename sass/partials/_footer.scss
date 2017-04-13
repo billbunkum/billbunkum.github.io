@@ -1,0 +1,31 @@
+footer > ul > li > a > img {
+  width: 50px;
+}
+
+footer > ul > li > a > img#codecademy-logo {
+  width: 65px;
+}
+
+footer.bottom ul li a {
+  /*font-size: 18px;*/
+  font-size: 1.4em;
+  clear: both;
+}
+
+/* allows bottom of page to not be obscured by footer navbar */
+footer.bottom {
+  padding-top: 10em;
+  overflow-wrap: normal;
+}
+
+li > a.footer-text {
+  color: #ffffff;
+}
+
+.signature {
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: grey;
+}

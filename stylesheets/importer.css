@@ -1,23 +1,11 @@
 /* importer compiles all scss files */
-/*light red #FFDCD9 */
-/*blue #648287 */
-/*light blue #BAC4C6 */
-/*green #648287*/
-/*super light gray/blue #C0CBCD*/
-/* extra light gray #EAECED*/
-/* dev blog*/
-/* line 8, ../sass/partials/screen.scss */
-.center {
-  margin-left: 100px;
-}
-
-/* line 12, ../sass/partials/screen.scss */
+/* line 1, ../sass/partials/_base.scss */
 h1, h2, h3, h4, small {
   color: #648287;
   font-family: 'Bitter', serif;
 }
 
-/* line 17, ../sass/partials/screen.scss */
+/* line 6, ../sass/partials/_base.scss */
 a:link, a:visited, a:active {
   color: #8b8378;
   font-weight: bolder;
@@ -26,83 +14,96 @@ a:link, a:visited, a:active {
   font-size: 24px;
 }
 
-/* line 25, ../sass/partials/screen.scss */
+/* line 14, ../sass/partials/_base.scss */
 a:hover {
   color: black;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 31, ../sass/partials/screen.scss */
+/* line 20, ../sass/partials/_base.scss */
 ul {
   list-style-type: none;
   text-decoration: none;
 }
 
-/* line 36, ../sass/partials/screen.scss */
+/* line 25, ../sass/partials/_base.scss */
 body {
   margin: 0 auto;
   font-size: 20px;
 }
 
-/*img.thumbs {
-  width: 10em;
-}*/
-/* line 45, ../sass/partials/screen.scss */
-.modal-thumbs {
+/* dev blog*/
+/* line 31, ../sass/partials/_base.scss */
+.center {
+  margin-left: 100px;
+}
+
+/* about page VIDEO */
+/* line 36, ../sass/partials/_base.scss */
+.video {
+  margin: 50px;
+}
+
+/* line 40, ../sass/partials/_base.scss */
+iframe#about-imbed-youtube {
   width: 100%;
+  height: 30em;
+  max-width: 32em;
+  max-height: 10em;
 }
 
-/* line 50, ../sass/partials/screen.scss */
-img.dp-thumbs {
-  width: 10em;
+/* used in Blog posts in _posts */
+/* line 48, ../sass/partials/_base.scss */
+.blog-blurb-text {
+  font-family: sans-serif;
+  font-size: 18px;
 }
 
-/* line 54, ../sass/partials/screen.scss */
-img .img-circle {
-  margin: auto 0;
+/* intext elements */
+/* line 54, ../sass/partials/_base.scss */
+.bold {
+  font-weight: bold;
 }
 
-/* line 59, ../sass/partials/screen.scss */
+/* line 58, ../sass/partials/_base.scss */
+span.cursive {
+  font-style: oblique;
+}
+
+/* line 62, ../sass/partials/_base.scss */
+span.latin {
+  font-style: italic;
+}
+
+/* line 1, ../sass/partials/_header.scss */
+.jumbo-image {
+  position: relative;
+  float: none;
+}
+
+/* line 6, ../sass/partials/_header.scss */
+.art-cascade {
+  max-width: 225px;
+}
+
+/* line 10, ../sass/partials/_header.scss */
+.navbar {
+  background-color: #BAC4C6;
+  margin: 0 auto;
+}
+
+/* line 15, ../sass/partials/_header.scss */
 #nav-collapse > ul > li > a > img {
   width: 35px;
 }
 
-/* line 63, ../sass/partials/screen.scss */
+/* line 19, ../sass/partials/_header.scss */
 #nav-collapse > ul > li > a > img#codecademy-logo {
   width: 55px;
 }
 
-/* line 67, ../sass/partials/screen.scss */
-footer > ul > li > a > img {
-  width: 50px;
-}
-
-/* line 71, ../sass/partials/screen.scss */
-footer > ul > li > a > img#codecademy-logo {
-  width: 65px;
-}
-
-/* line 75, ../sass/partials/screen.scss */
-footer.bottom ul li a {
-  /*font-size: 18px;*/
-  font-size: 1.4em;
-  clear: both;
-}
-
-/* allows bottom of page to not be obscured by footer navbar */
-/* line 82, ../sass/partials/screen.scss */
-footer.bottom {
-  padding-top: 10em;
-  overflow-wrap: normal;
-}
-
-/* line 87, ../sass/partials/screen.scss */
-.btn-group {
-  margin-top: 5px;
-}
-
-/* line 91, ../sass/partials/screen.scss */
+/* line 23, ../sass/partials/_header.scss */
 .jumbotron {
   padding: 10px 15px;
   margin: 0px;
@@ -113,35 +114,28 @@ footer.bottom {
   background-repeat: no-repeat;
 }
 
-/* line 101, ../sass/partials/screen.scss */
+/* line 1, ../sass/partials/_content.scss */
+.modal-thumbs {
+  width: 100%;
+}
+
+/* line 5, ../sass/partials/_content.scss */
+img.dp-thumbs {
+  width: 10em;
+}
+
+/* line 9, ../sass/partials/_content.scss */
+img .img-circle {
+  margin: auto 0;
+}
+
+/* line 13, ../sass/partials/_content.scss */
 a.button-text {
   color: #ffffff;
 }
 
-/* line 105, ../sass/partials/screen.scss */
-li > a.footer-text {
-  color: #ffffff;
-}
-
-/* line 109, ../sass/partials/screen.scss */
-.jumbo-image {
-  position: relative;
-  float: none;
-}
-
-/* line 114, ../sass/partials/screen.scss */
-.art-cascade {
-  max-width: 225px;
-}
-
-/* line 118, ../sass/partials/screen.scss */
-.navbar {
-  background-color: #BAC4C6;
-  margin: 0 auto;
-}
-
-/* index */
-/* line 124, ../sass/partials/screen.scss */
+/* index page */
+/* line 18, ../sass/partials/_content.scss */
 .explanation-bg {
   /*border color*/
   background: #000000;
@@ -151,7 +145,7 @@ li > a.footer-text {
   margin-bottom: 1em;
 }
 
-/* line 133, ../sass/partials/screen.scss */
+/* line 27, ../sass/partials/_content.scss */
 .explanation {
   /*middle part*/
   padding: 8px;
@@ -159,66 +153,58 @@ li > a.footer-text {
   background: -webkit-gradient(linear, left top, left bottom, from(#eaeced), to(#c0cbcd));
 }
 
-/* line 140, ../sass/partials/screen.scss */
+/* line 34, ../sass/partials/_content.scss */
 .solved {
   font-size: 18px;
   color: #648287;
 }
 
-/* line 145, ../sass/partials/screen.scss */
+/* line 39, ../sass/partials/_content.scss */
 .thumbnail {
   margin: 5px;
   background-color: #EAECED;
   border: solid #000000;
 }
 
-/* about page VIDEO */
-/* line 153, ../sass/partials/screen.scss */
-.video {
-  margin: 50px;
+/* line 1, ../sass/partials/_buttons.scss */
+.btn-group {
+  margin-top: 5px;
 }
 
-/* used in Blog posts in _posts */
-/* line 158, ../sass/partials/screen.scss */
-.blog-blurb-text {
-  font-family: sans-serif;
-  font-size: 18px;
+/* line 1, ../sass/partials/_footer.scss */
+footer > ul > li > a > img {
+  width: 50px;
 }
 
-/* line 163, ../sass/partials/screen.scss */
+/* line 5, ../sass/partials/_footer.scss */
+footer > ul > li > a > img#codecademy-logo {
+  width: 65px;
+}
+
+/* line 9, ../sass/partials/_footer.scss */
+footer.bottom ul li a {
+  /*font-size: 18px;*/
+  font-size: 1.4em;
+  clear: both;
+}
+
+/* allows bottom of page to not be obscured by footer navbar */
+/* line 16, ../sass/partials/_footer.scss */
+footer.bottom {
+  padding-top: 10em;
+  overflow-wrap: normal;
+}
+
+/* line 21, ../sass/partials/_footer.scss */
+li > a.footer-text {
+  color: #ffffff;
+}
+
+/* line 25, ../sass/partials/_footer.scss */
 .signature {
   float: right;
   margin-right: 50px;
   margin-bottom: 10px;
   font-size: 16px;
   color: grey;
-}
-
-/* intext elements */
-/* line 173, ../sass/partials/screen.scss */
-.bold {
-  font-weight: bold;
-}
-
-/* line 177, ../sass/partials/screen.scss */
-span.cursive {
-  font-style: oblique;
-}
-
-/* line 181, ../sass/partials/screen.scss */
-span.latin {
-  font-style: italic;
-}
-
-/* line 185, ../sass/partials/screen.scss */
-iframe#about-imbed-youtube {
-  width: 100%;
-  height: 30em;
-  max-width: 32em;
-  max-height: 10em;
-}
-
-/* line 192, ../sass/partials/screen.scss */
-a#kavakings-btn {
-  color: white;
 }

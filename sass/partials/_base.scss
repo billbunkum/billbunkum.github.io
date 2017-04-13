@@ -1,0 +1,64 @@
+h1, h2, h3, h4, small {
+  color: #648287;
+  font-family: 'Bitter', serif;
+}
+
+a:link, a:visited, a:active {
+  color: #8b8378;
+  font-weight: bolder;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+/* dev blog*/
+.center {
+  margin-left: 100px
+}
+
+/* about page VIDEO */
+.video {
+  margin: 50px;
+}
+
+iframe#about-imbed-youtube {
+  width: 100%;
+  height: 30em;
+  max-width: 32em; 
+  max-height: 10em;
+}
+
+/* used in Blog posts in _posts */
+.blog-blurb-text {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+/* intext elements */
+.bold {
+  font-weight: bold;
+}
+
+span.cursive {
+  font-style: oblique;
+}
+
+span.latin {
+  font-style: italic;
+}
