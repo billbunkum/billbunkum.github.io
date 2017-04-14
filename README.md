@@ -53,7 +53,8 @@
 + Using this structure as a boiler plate 'reference' while I learn the ropes of SCSS & Compass
 + Referencing: [johnWLong](http://thesassway.com/beginner/how-to-structure-a-sass-project)
 
-    `stylesheets/
+***
+    stylesheets/
     |
     |-- modules/              # Common modules
     |   |-- _all.scss         # Include to get all modules
@@ -75,13 +76,15 @@
     |   |-- _jquery.ui.core.scss
     |   ...
     |
-    -- main.scss            # primary Sass file`
+    -- main.scss            # primary Sass file
+***
 
 + Granted, I'm not currently using much 3rd party CSS or weird `mixin` declarations, so there's no need for `vendor/` or `modules/`.
 + I have `sass/` which includes all the .scss files & their dirs pre-compiled by Compass. Compass then sends these over to `stylesheets/` and builds the hierarchy.
 + My current structure (which has been compiled) includes:
 
-    `stylesheets/
+***
+    stylesheets/
     |
     |-- partials/
     |   |-- _base.scss
@@ -90,7 +93,8 @@
     |   |-- _typography.scss
     |   |-- _footer.scss
     |
-    |-- importer.scss         # primary Sass file`
+    |-- importer.scss         # primary Sass file
+***
 
 + SCSS commands I'm playing w/ are found [here in the Sass-guide](http://sass-lang.com/guide).
     1. @extends
