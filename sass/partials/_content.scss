@@ -18,7 +18,7 @@ a.button-text {
 .explanation-bg {
   /*border color*/
   background: #000000;
-  background: -webkit-gradient(linear, left top, left bottom, from(#C0CBCD), to(#eaeced));
+  background: -webkit-gradient(linear, left top, left bottom, from($explanation-blue), to($explanation-white));
   padding: 1px;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -27,17 +27,17 @@ a.button-text {
 .explanation {
   /*middle part*/
   padding: 8px;
-  background: #EAECED;
-  background: -webkit-gradient(linear, left top, left bottom, from(#eaeced), to(#c0cbcd));
+  background: $explanation-white;
+  background: -webkit-gradient(linear, left top, left bottom, from($explanation-white), to($explanation-blue));
 }
 
 .solved {
   font-size: 18px;
-  color: #648287;
+  color: $header-blue;
 }
 
 .thumbnail {
   margin: 5px;
-  background-color: #EAECED;
+  background-color: $explanation-white;
   border: solid #000000;
 }

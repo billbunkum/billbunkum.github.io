@@ -49,8 +49,9 @@
 ### Compass
 + Use compass to organize CSS/SCSS files
 
-#### SCSS File hierarchy [johnWLong](http://thesassway.com/beginner/how-to-structure-a-sass-project)
+#### SCSS 
 + Using this structure as a boiler plate 'reference' while I learn the ropes of SCSS & Compass
++ Referencing: [johnWLong](http://thesassway.com/beginner/how-to-structure-a-sass-project)
 
 `stylesheets/
 |
@@ -89,3 +90,8 @@
 |   |-- _footer.scss
 |
 |-- importer.scss         # primary Sass file`
+
++ SCSS commands I'm playing w/ are found [here in the Sass-guide](http://sass-lang.com/guide).
+    1. @extends
+    2. @mixin
+    3. Nesting (a SCSS technique)

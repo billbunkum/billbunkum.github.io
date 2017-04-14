@@ -1,10 +1,18 @@
+/* Sass variables - we workin' w/variables now, champs! */
+$navbar-blue: #BAC4C6;
+$jumbotron-pink: #DCA7A1; /* weird pink */
+$header-blue: #648287;
+$header-grey: #8b8378;
+$explanation-white: #EAECED;
+$explanation-blue: #C0CBCD;
+
 h1, h2, h3, h4, small {
-  color: #648287;
+  color: $header-blue;
   font-family: 'Bitter', serif;
 }
 
 a:link, a:visited, a:active {
-  color: #8b8378;
+  color: $header-grey;
   font-weight: bolder;
   text-decoration: none;
   font-family: 'Open Sans Condensed', sans-serif;

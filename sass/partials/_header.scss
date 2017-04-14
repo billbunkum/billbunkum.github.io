@@ -8,7 +8,7 @@
 }
 
 .navbar {
-  background-color: #BAC4C6;
+  background-color: $navbar-blue;
   margin: 0 auto;
 }
 
@@ -26,6 +26,6 @@
   /*background-image: url("/art_cascade.png");*/
   background-repeat: no-repeat;
   background-size: contain;
-  background: linear-gradient(160deg, #DCA7A1, #FFFFFF);
+  background: linear-gradient(160deg, $jumbotron-pink, #FFFFFF);
   background-repeat: no-repeat;
 }
