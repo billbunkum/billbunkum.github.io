@@ -95,24 +95,28 @@ span.latin {
   margin: 0 auto;
 }
 
-/* line 15, ../sass/partials/_header.scss */
-#nav-collapse > ul > li > a > img {
+/* #nav-collapse > ul > li > a > img {
+ *    width: 35px;
+ * }
+*/
+/* line 24, ../sass/partials/_header.scss */
+#nav-collapse ul li a img {
   width: 35px;
 }
 
-/* line 19, ../sass/partials/_header.scss */
+/* line 32, ../sass/partials/_header.scss */
 #nav-collapse > ul > li > a > img#codecademy-logo {
   width: 55px;
 }
 
-/* line 23, ../sass/partials/_header.scss */
+/* line 36, ../sass/partials/_header.scss */
 .jumbotron {
   padding: 10px 15px;
   margin: 0px;
   /*background-image: url("/art_cascade.png");*/
+  background: linear-gradient(160deg, #DCA7A1, #FFFFFF);
   background-repeat: no-repeat;
   background-size: contain;
-  background: linear-gradient(160deg, #DCA7A1, #FFFFFF);
   background-repeat: no-repeat;
 }
 
@@ -173,40 +177,28 @@ a.button-text {
   margin-top: 5px;
 }
 
-/* line 1, ../sass/partials/_footer.scss */
-footer > ul > li > a > img {
+/* line 5, ../sass/partials/_footer.scss */
+footer ul li a img {
   width: 50px;
 }
-
-/* line 5, ../sass/partials/_footer.scss */
-footer > ul > li > a > img#codecademy-logo {
+/* line 8, ../sass/partials/_footer.scss */
+footer ul li a img#codecademy-logo {
   width: 65px;
 }
 
-/* line 9, ../sass/partials/_footer.scss */
-footer.bottom ul li a {
-  /*font-size: 18px;*/
-  font-size: 1.4em;
-  clear: both;
-}
-
 /* allows bottom of page to not be obscured by footer navbar */
-/* line 16, ../sass/partials/_footer.scss */
+/* line 17, ../sass/partials/_footer.scss */
 footer.bottom {
   padding-top: 10em;
   overflow-wrap: normal;
 }
-
-/* line 21, ../sass/partials/_footer.scss */
-li > a.footer-text {
-  color: #ffffff;
+/* line 22, ../sass/partials/_footer.scss */
+footer.bottom ul li a {
+  font-size: 1.4em;
+  clear: both;
 }
 
-/* line 25, ../sass/partials/_footer.scss */
-.signature {
-  float: right;
-  margin-right: 50px;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: grey;
+/* line 30, ../sass/partials/_footer.scss */
+li > a.footer-text {
+  color: #ffffff;
 }

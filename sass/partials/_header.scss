@@ -12,8 +12,21 @@
   margin: 0 auto;
 }
 
-#nav-collapse > ul > li > a > img {
-  width: 35px;
+// testing whether 'nested' or '>' rules are better for this situation
+/* #nav-collapse > ul > li > a > img {
+ *    width: 35px;
+ * }
+*/
+#nav-collapse {
+  ul { 
+    li { 
+      a {
+        img {
+          width: 35px;
+        }
+      }
+    }
+  }
 }
 
 #nav-collapse > ul > li > a > img#codecademy-logo {
@@ -24,8 +37,10 @@
   padding: 10px 15px;
   margin: 0px;
   /*background-image: url("/art_cascade.png");*/
-  background-repeat: no-repeat;
-  background-size: contain;
   background: linear-gradient(160deg, $jumbotron-pink, #FFFFFF);
-  background-repeat: no-repeat;
+  background: {
+    repeat: no-repeat;
+    size: contain;
+    repeat: no-repeat;
+  }
 }
