@@ -1,0 +1,66 @@
+---
+layout: post
+title: 2017-04-20 Database Layout Pitfalls
+---
+
+<span class="blob-blurb-text">
+~ Database Layout Pitfalls                      
+</span>
+
+<h1>Complex Systems<br />
+    <small>When you think you're right...</small>
+</h1>
+<p>
+    As it stood, I figured creating a database was a fairly basic operation. Of course, there's a reason companies are looking for backend or full-stack developers that <span class="cursive">know</span> what they are talking about. Their job descriptions talk of years of experience, Computer Science (or relevant) degrees and a <span class="cursive">love?</span> for making Saas (software as a service) applications.
+</p>
+<p>
+    Please.
+</p>
+<p>
+    A more descriptive question would be, <br />
+    <code>"What do you keep in mind when creating a database?"</code><br />
+    It seems to me that this sole question would weed out a lot of people and adequately separate the wheat from the chaff (to get all biblical). Honestly, it would have weeded me out of several jobs - more importantly, it would have clued me in to <strong>what I actually needed to be learning</strong>.
+</p>
+<p>
+    The point. I had a misconception about how Users and their information were being related to one another within the actual database. As MongoDB is a <a href="{{site.noSQL}}">NoSQL database</a>, I understood the idea that Schema's were not Models, and therefore as SO-AND-SO puts it, a Collection does not require Models to possess all the same BLAAH. Having just started learning MEAN, I don't pretend to be a guru, but it looks like NoSQL provides more fluidity and flexibility when building these 'relationships'. Again, I'm not talking about Relational Databases (e.g. SQL), I'm talking about how the data within these different 'Documents' (instances of Models which are compiled versions of Schemas) relate to one another.
+</p>
+<h2>Big Question<br />
+    <small>The big f*k up</small>
+</h2>
+<p>
+    My <a href="{{site.stackExchange}}">big question</a>, while doing Thinkster's <a href="{{site.thinkster-nodeJS}}">Node.js tutorial</a>, was why would did the User Schema need a Boolean field called 'following', and yet the API would manipulate that field using a DELETE request instead of a PUT request.
+</p>
+<p>
+    If you know <span class="cursive">nothing</span>, that may have sounded like nonesense. Don't worry. If you know <span class="cursive">something</span> it probably sounded like nonesense, too! Read as, big ol' run-on, programmer sentences. I'll explain.
+</p>
+<p>
+    In the tutorial, <span class="cursive">a user should be able to 'following another user's post.</span> Thus, teh User Schema was given a field 'following' with the default value <code>false</code>.<br />
+    That seemed to make sense to me. I figured, if user A following user B's post, that would be accomplished by updating (making a PUT request) said Boolean field to <code>True</code>. Yeeeeeah...<br />
+    As it turns out, that could make sense if there were only (2) users. The Boolean field would be keeping track of 'yes' following or 'no' not following. The thing is, in a larger database (one with more users than...2) the relationship falls apart. How do you keep track of user A and B liking user C's post at the same time?
+</p>
+<p>
+    Yeah, yeah, I'm sure there's a way. But the point is, I was not thinking clearly. I think that's rooted in my misconception of how database 'stuff' relates to one another. That's probably because I learned DB stuff using SQLite, a Relational Database, and was thinking that each 'following' field was just an Instance of...wait. That's confusing, isn't it? Exactly.
+</p>
+<h2>The Answer<br />
+    <small>As explained by Stack Exchange gurus</small>
+</h2>
+<p>
+    Alright, this example is a bit simple, cos there are so many possible iterations of this (apparently basic) concept, but the point is to answer why we're manipulating data in a boolean field with a POST/DELETE request. Just run with it.
+</p>
+<p>
+    You create the 'following' field in the User Schema as a Boolean because it <span class="cursive">is</span> a 'yes' or 'no' question. The User Schema is telling the database what it needs to expect. In this case, a User can be 'following' or not. <br />
+    When some user is 'following' or 'unfollowing' another user's post, you use a POST or DELETE request (respectively) to create or delete totally different objects - these <span class="cursive">different</span> objects would probably be stored on the current user's .... Thus, and <strong>here's the clench</strong>, the API request is not manipulating the Boolean value stored on the database but is instead referencing the current user's Boolean field in respect to whichever user is being 'followed' or 'unfollowed'. The API request is doing a calculation for the current user and nothing else.
+</p>
+<h3>Other Methods<br />
+    <small>Another disclaimer &amp; some healthy b*tching</small>
+</h3>
+<p>
+    Sure, there's several ways to skin the proverbial cat, ladies. My point is, there's a fundamental misconception amongst Junior Developers as to what we're actually doing when we create a database. Not looking to point fingers but what the hell? This stuff isn't rocket science, y'all senior devs should be able to explain it more readily.<br />
+    The way these tutorials are taught is similar to learning a foreign language (in the most inefficient way). You're given a slue of weird words and a pep talk, then you're expected to write a 1,500 word essay on a cocked up subject you've barely heard of. Oh, by the way, you can't make any mistakes because then nothing works.
+</p>
+<p>
+    &nbsp;&nbsp;<small>&#35;Y'all don't teaching so good</small>
+</p>
+<p>
+Published: 2017-04-20
+</p>
