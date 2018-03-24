@@ -40,6 +40,13 @@ body {
   margin-left: 100px
 }
 
+h2 {
+  &.center-me {
+    position: relative;
+    width: auto;
+  }
+}
+
 /* about page VIDEO */
 .video {
   margin: 50px;

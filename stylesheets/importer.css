@@ -41,13 +41,19 @@ body {
   margin-left: 100px;
 }
 
-/* about page VIDEO */
 /* line 44, ../sass/partials/_base.scss */
+h2.center-me {
+  position: relative;
+  width: auto;
+}
+
+/* about page VIDEO */
+/* line 51, ../sass/partials/_base.scss */
 .video {
   margin: 50px;
 }
 
-/* line 48, ../sass/partials/_base.scss */
+/* line 55, ../sass/partials/_base.scss */
 iframe#about-imbed-youtube {
   width: 100%;
   height: 30em;
@@ -56,24 +62,24 @@ iframe#about-imbed-youtube {
 }
 
 /* used in Blog posts in _posts */
-/* line 56, ../sass/partials/_base.scss */
+/* line 63, ../sass/partials/_base.scss */
 .blog-blurb-text {
   font-family: sans-serif;
   font-size: 18px;
 }
 
 /* intext elements */
-/* line 62, ../sass/partials/_base.scss */
+/* line 69, ../sass/partials/_base.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 66, ../sass/partials/_base.scss */
+/* line 73, ../sass/partials/_base.scss */
 span.cursive {
   font-style: oblique;
 }
 
-/* line 70, ../sass/partials/_base.scss */
+/* line 77, ../sass/partials/_base.scss */
 span.latin {
   font-style: italic;
 }
