@@ -1,5 +1,18 @@
-# Bill Bunkum's online portfolio
-+ The focus of this site is to showcase several projects which I completed during my bootcamp; we engaged in three kinds of projects:
+# Online Portfolio
+
+## Recent Work
++ I am learning and creating these projects currently...
+    1. ReactJS
+        1. Tutorial projects
+    2. AngularJS 5
+        1. ClickRage application (deployed on Bitbucket)
+
+## Bootcamp
++ A profile page for the projects I accomplished during the 12-week Awesome Inc. U. Bootcamp which ran from September 2016 to November 2016.
+
++ During the Monday thru Friday, 8am-5pm course, all told, I achieved over 500 hours of coding experience just from the Full-stack Web Development Bootcamp. 
+
++ Please, find a comprehensive list of the coursework material [here]({{ site.projects-list }}{% post_url /2016-10-18-projectsList.html %}).
     1. Solo projects
         1. Final Projects
             * We formulated the idea and coded the project on our own
@@ -16,23 +29,6 @@
         * We would match what he did asking questions as we went
         * We would attempt to extend/mutate the results
 
-## CONSTRUCTION! Beware.
-+ Bear in mind, I am hot off the heels of our Bootcamp final project and am now re-vamping this site with all the fancy tools I learned over the past 3 months!
-
-# billbunkum.github.io
-+ A profile page for the projects I accomplished during the 12-week Awesome Inc. U. Bootcamp which ran from September 2016 to November 2016.
-
-+ During the Monday thru Friday, 8am-5pm course, I was introduced to a variety of current, web development practices, methodologies, languages and frameworks. All told, I achieved over 500 hours of coding experience just from the Bootcamp. 
-
-+ Please, find a comprehensive list of the coursework material [here]({{ site.projects-list }}{% post_url /2016-10-18-projectsList.html %}).
-
-## Thoughts about DESIGN
-+ currently in developer-blog
-
-## Thoughts about DEVELOPMENT
-+ currently in developer-blog
-
-
 ## List of web links
 + github: https://github.com/billbunkum
 + stackoverflow: http://stackoverflow.com/users/6580955/billbunkum
@@ -40,18 +36,19 @@
 + twitter: https://twitter.com/billbunkum 
 + blog: http://billbunkum.blogspot.com 
 
-### Local stuff
-* jekyll site w/ outbound links
-* deployed on GitHub Pages @ https://billbunkum.github.io
-+ $jekyll serve
-+ url localhost:4000
+## Libraries
+1. Jekyll
+    + jekyll site w/ outbound links
+    + deployed on GitHub Pages @ https://billbunkum.github.io
+    + $jekyll serve
+    + url localhost:4000
 
-### Compass
-+ Use compass to organize CSS/SCSS files
+2. Compass
+    + Use compass to organize CSS/SCSS files
 
-#### SCSS 
-+ Using this structure as a boiler plate 'reference' while I learn the ropes of SCSS & Compass
-+ Referencing: [johnWLong](http://thesassway.com/beginner/how-to-structure-a-sass-project)
+3. SCSS 
+    + Using this structure as a boiler plate 'reference' while I learn the ropes of SCSS & Compass
+    + Referencing: [johnWLong](http://thesassway.com/beginner/how-to-structure-a-sass-project)
 
 ***
     stylesheets/
@@ -100,5 +97,3 @@
     1. @extends
     2. @mixin
     3. Nesting (a SCSS technique)
-
-### Still coding!

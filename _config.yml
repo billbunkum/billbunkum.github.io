@@ -63,6 +63,7 @@ barkinapp-deploy: https://evening-fortress-43547.herokuapp.com/
 dotheangle-deploy: https://billbunkum.github.io/do-the-angle/
 grocery-deploy: https://grocerybootylist.herokuapp.com/
 datebyhate-deploy: https://datebyhate.herokuapp.com/accounts/login/?next=/
+click-rage-deploy: https://click-rage.herokuapp.com/
 
 #more blog links
 blog-2017-01-11-scrum: https://en.wikipedia.org/wiki/Scrum_(software_development)
