@@ -1,6 +1,13 @@
 # Online Portfolio
 
-## Recent Work
+## Present Day
++ I have returned! to update this portfoliio.
+  1. As it's my *portfolio* I suppose it's *important*. In my defense, I was either working remotely for various clients or for a proprietary project and have *not* been able to post any of the code.
+  2. I am focusing my efforts currently on a *mobile* project which uses a most interesting language, Flutter.
+  3. In the meantime, I am re-vamping my Github portfolio – it's honestly embarrassing to look at, I admit, but that is what happens when you *improve*! So, I suppose it's a good thing that I'm embarrassed?
+  4. Expect more changes in the next few months...
+
+## Past Work
 + I am learning and creating these projects currently...
     1. ReactJS
         1. Tutorial projects

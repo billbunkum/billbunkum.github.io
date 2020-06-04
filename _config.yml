@@ -22,6 +22,8 @@ kavakings-splash: _media/kavakings_splash.png
 kavakings-image: _media/waveLogo_transparent_blue.png
 barkinapp-image: _media/barkinapp-splash.png
 dreadlore-image: _media/dreadlore-shirt.jpg
+# NEED TO DO THIS YET
+clickrage-image: _media/clickrage.png
 
 #offsite image links
 kavakings-img-root: http://kavakings.com/image_main/
