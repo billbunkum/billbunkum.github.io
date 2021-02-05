@@ -1,13 +1,15 @@
 {
   "name": "billbunkum.github.io",
   "version": "1.0.0",
-  "description": "online portfolio which showcases current, personal dev projects",
+  "description": "github portfolio which software development projects",
   "main": "app.js",
   "dependencies": {
-    "compass": "^0.1.1"
+    "compass": "^0.1.1",
+    "live-server": "1.2.1"
   },
   "devDependencies": {},
   "scripts": {
+    "serve": "live-server .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -17,7 +17,7 @@ media: _media/
 
 #images: 'splash' used in modal
 dreadLore-image: _media/dreadlore_tshirt_transparent.png
-dreadLore-splash: _media/dreadLore_screenshot.png
+dreadLore-splash: _media/dreadLore_website_screenshot.png
 kavakings-splash: _media/kavakings_splash.png
 kavakings-image: _media/waveLogo_transparent_blue.png
 barkinapp-image: _media/barkinapp-splash.png
