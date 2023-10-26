@@ -1,5 +1,13 @@
 # William Hurst Web Dev / Infosec Portfolio
 
+## Contents
+
+### Infosec
+I am using _Hack the Box_ for practical Pentetration testing and IDS/IPS experience.  
+
+I am also studying for the _Comptia Security+_ certification.
+
+### Web Dev
 This is my main [Github][myGithub]. Most of my work is in _private_ repos for the clients with whom I work. Check out these Repositories  for the most **up-to-date** work:  
 
 > [DreadLore][dreadLore_repo]
