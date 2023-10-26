@@ -1,8 +1,8 @@
-# William Hurst Web Dev / Infosec Portfolio
+# William Hurst Web Dev / Cybersecurity Portfolio
 
 ## Contents
 
-### Infosec
+### Cybersecurity 
 I am using _Hack the Box_ for practical Pentetration testing and IDS/IPS experience.  
 
 I am also studying for the _Comptia Security+_ certification.
@@ -15,8 +15,10 @@ This is my main [Github][myGithub]. Most of my work is in _private_ repos for th
 > [DarkeyesDesign][darkeyesdesign_repo]
 
 ## Updates
-**10.26.23**  
-Revisted _Markdown_ and am updating this README. Next will be to clean up the defunct projects and then curate the site. It's _old_ and needs some renovation!
+_10.26.23_  
+Revisted _Markdown_ and am updating this README.  
+
+> Next will be to clean up the defunct projects and then curate the site. It's _old_ and needs some renovation!
 
 _02/02/22_  
 I have returned! to update this portfoliio.
@@ -35,20 +37,22 @@ A profile page for the projects I accomplished during the 12-week Awesome Inc. U
 During the Monday thru Friday, 8am-5pm course, all told, I achieved over 500 hours of coding experience just from the Full-stack Web Development Bootcamp. 
 
 Solo projects
-Final Projects
-* We formulated the idea and coded the project on our own
-* Our lead instructor gave us help using Gulp & Webpack
+1. We formulated the idea and coded the project on our own.
+1. Our lead instructor gave us help using Gulp & Webpack.  
+
 Guided
-* We were given definitive parameters and deadlines on what to create
-* Problem-solving would take the form of online searches, helping out cohort members and talking through (rubber-ducking) problems with teachers.
+1. We were given definitive parameters and deadlines on what to create.
+1. Problem-solving would take the form of online searches, helping out cohort members and talking through (rubber-ducking) problems with teachers.  
+
 Pair-programming
-* Random pairs were selected and we were given a task(s) to complete within a certain amount of time (usually 1-3 days)
-* We focused on a Git, Trello, Slack work-flow and a Scrum methodology
-* Groups would present projects to the class upon completion followed up by a brief critique
+1. Random pairs were selected and we were given a task(s) to complete within a certain amount of time (usually 1-3 days).
+1. We focused on a Git, Trello, Slack work-flow and a Scrum methodology.
+1. Groups would present projects to the class upon completion followed up by a brief critique.  
+
 Guided coding
-* Our lead instructor would walk us through a new technology or tool
-* We would match what he did asking questions as we went
-* We would attempt to extend/mutate the results
+1. Our lead instructor would walk us through a new technology or tool.
+1. We would match what he did asking questions as we went.
+1. We would attempt to extend/mutate the results.
 
 ## Libraries
 _Jekyll_
